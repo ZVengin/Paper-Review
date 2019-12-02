@@ -21,6 +21,7 @@
   - models training with MLE objective tend to generate  repeated and boring captions since it encourage the model to use n-grams appeared in training samples
   - previous works focus on fidelity and ignore other qualities like natural and diversity
   - conventional evaluation metrics tend to favor safe but restrictive way. Under these metrics, sentences that contain matched n-grams would get substantially higher scores than those using variant expressions 
+  - on certain metrics, many models has surpass human
 - Contributions:
   - extend GAN to caption generation
 
@@ -52,6 +53,13 @@
   - conventional attention mechanism will pay attention to image at each time step irrespective of the next word.
 - Contributions:
   - proposed a adaptive attention model will attend to the image features when necessary
+
+### [Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering](https://arxiv.org/pdf/1707.07998.pdf)
+
+- Problems:
+  - Conventional attention to each pixel of image irrespective of the content and object in an image
+- Contribution:
+  - Proposed a top down and bottom up attention mechanism which attend to salient objects and regions in an image
 
 ### [Diverse Beam Search for Improved Description of Complex Scenes](http://web.engr.oregonstate.edu/~leestef/pdfs/diversebeam2018aaai.pdf)
 
