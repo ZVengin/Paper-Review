@@ -76,11 +76,9 @@
 
 ### [Aligning where to see and what to tell: image caption withregion-based attention and scene factorization](https://arxiv.org/pdf/1506.06272.pdf)
 
-### [Image Caption with Global-Local Attention]([file:///home/vengin/Downloads/14880-66775-1-PB%20(1).pdf](file:///home/vengin/Downloads/14880-66775-1-PB (1).pdf)
+### [Image Caption with Global-Local Attention](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14880/14291)
 
 ### [Show, Control and Tell: A Framework for Generating Controllable and Grounded Captions](https://arxiv.org/pdf/1811.10652.pdf)
-
-
 
 ### [Natural Language Object Retrieval](https://arxiv.org/pdf/1511.04164.pdf)
 
