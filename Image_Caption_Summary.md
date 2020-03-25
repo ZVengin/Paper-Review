@@ -61,6 +61,18 @@
 - Contribution:
   - Proposed a top down and bottom up attention mechanism which attend to salient objects and regions in an image
 
+### [Describing like Humans: on Diversity in Image Captioning](https://arxiv.org/pdf/1903.12020.pdf)
+
+- Problem: 
+  - existing metrics are incapable of evaluating the semantic diversity of a group captions for the same image.
+- Motivation
+  - people's demands
+  - avoid generating monotonous phrases
+  - better fitting in with dataset distribution
+- Contribution
+  - proposed a diversity evaluation metric, named self-CIDEr, based on CIDEr and LSA  
+  - they define diversity from three levels, contents, words and syntactic structures
+
 ### [Diverse Beam Search for Improved Description of Complex Scenes](http://web.engr.oregonstate.edu/~leestef/pdfs/diversebeam2018aaai.pdf)
 
 ### [Object Counts! Bringing Explicit Detections Back into Image Captioning](https://www.aclweb.org/anthology/N18-1198.pdf)
@@ -81,6 +93,8 @@
 ### [Show, Control and Tell: A Framework for Generating Controllable and Grounded Captions](https://arxiv.org/pdf/1811.10652.pdf)
 
 ### [Natural Language Object Retrieval](https://arxiv.org/pdf/1511.04164.pdf)
+
+
 
 
 
