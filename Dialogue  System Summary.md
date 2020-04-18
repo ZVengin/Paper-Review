@@ -18,14 +18,14 @@
   1. build a large-scale multi-domain datasets, including 16 domains, 26 services and  16000 dialogues.
   2. they try to predict intentions and slot values on some unseen domains or services and obtain promising results.
 
-#####[Goal-Oriented Multi-Task BERT-Based Dialogue State Tracker](https://arxiv.org/abs/2002.02450)
+##### [Goal-Oriented Multi-Task BERT-Based Dialogue State Tracker](https://arxiv.org/abs/2002.02450)
 
 - Problem
   1. existing task-oriented dialogue systems cannot generalize to unseen tasks
 - Contribution
   - reformulate the dialogue state tracking task in the form of QA, where the dialogue history, slot, service and intent description correspond to the question and the dialogue state corresponds to the answer
  
-#####[Towards Knowledge-Based Recommender Dialog System](https://arxiv.org/abs/1908.05391)
+##### [Towards Knowledge-Based Recommender Dialog System](https://arxiv.org/abs/1908.05391)
  - Problem
     1. conventional recommendation systems recommend items only depend on previous selected items, which makes the recommendation not accurate
  - Contribution
