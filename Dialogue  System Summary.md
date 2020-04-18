@@ -24,6 +24,16 @@
   1. existing task-oriented dialogue systems cannot generalize to unseen tasks
 - Contribution
   - reformulate the dialogue state tracking task in the form of QA, where the dialogue history, slot, service and intent description correspond to the question and the dialogue state corresponds to the answer
+ 
+ #####[Towards Knowledge-Based Recommender Dialog System](https://arxiv.org/abs/1908.05391)
+ - Problem
+    1. conventional recommendation systems recommend items only depend on previous selected items, which makes the recommendation not accurate
+ - Contribution
+    1. combine the recommendation system with dialogue system
+    2. use knowledge graph to find the items to be recommended
+ - Motivations
+    1. during conversation, users may convey some information about the desirable items. we can use these information to improve the recommendation accuracy
+    2. the information conveyed in conversations can be connected with desirable items in knowledge graphs. So using knowledge graph can help find the desirable items according to the information in dialogues. 
 
 [Building Task-Oriented Dialogue Systems for Online Shopping]([file:///home/vengin/Downloads/14261-66459-1-PB.pdf](file:///home/vengin/Downloads/14261-66459-1-PB.pdf))
 
