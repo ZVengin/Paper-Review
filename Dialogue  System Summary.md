@@ -15,7 +15,7 @@
   2. Based on the observation that most tasks have the overlapping of functionality. so dialogue system should be able to handle unseen tasks by leveraging the experience of other similar tasks.
   3. some tasks have little or no training data, which requires dialogue system to leverage their knowledge learned from other tasks. 
 - Contributions
-  1. build a large-scale multi-domain datasets, including 16 domains, 26 services and  16000 dialogues.
+  1. build a [large-scale multi-domain dataset](https://github.com/google-research-datasets/dstc8-schema-guided-dialogue), including 16 domains, 26 services and  16000 dialogues.
   2. they try to predict intentions and slot values on some unseen domains or services and obtain promising results.
   
 ##### [Towards Deep Conversational Recommendations](https://arxiv.org/abs/1908.05391)
