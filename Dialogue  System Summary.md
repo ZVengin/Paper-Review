@@ -19,6 +19,12 @@
   2. they try to predict intentions and slot values on some unseen domains or services and obtain promising results.
   
 ##### [Towards Deep Conversational Recommendations](https://arxiv.org/abs/1908.05391)
+
+- Problem
+  1. No large scale dataset for recommendation dialogue systems
+  
+- Contribution
+  1. Release a [dataset](https://redialdata.github.io/website/) for recommendation dialogue systems 
   
 #### Multi-Task
 
