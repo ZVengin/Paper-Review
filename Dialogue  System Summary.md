@@ -26,6 +26,8 @@
 - Contribution
   1. Release a [dataset](https://redialdata.github.io/website/) for recommendation dialogue systems 
   
+##### [Personalizing Dialogue Agents: I have a dog, do you have pets too?](https://arxiv.org/pdf/1801.07243.pdf)
+
 #### Multi-Task
 
 ##### [Goal-Oriented Multi-Task BERT-Based Dialogue State Tracker](https://arxiv.org/abs/2002.02450)
@@ -48,3 +50,13 @@
 
 [Building Task-Oriented Dialogue Systems for Online Shopping]([file:///home/vengin/Downloads/14261-66459-1-PB.pdf](file:///home/vengin/Downloads/14261-66459-1-PB.pdf))
 
+#### Persona
+
+##### [Generating Persona Consistent Dialogues by Exploiting Natural Language Inference](https://arxiv.org/abs/1911.05889)
+- Problem
+  1. current dialogue systems cannot generate persona consistent responses
+- Motivation
+  1. persona consistent dialogues look more natural and reasonable
+- Contribution
+  1. explicitly taking persona consistency into consideration during training phase
+  2. adopting natural language inference module to decide whether the generated responses are consistent with the chat-bot's personas. 
