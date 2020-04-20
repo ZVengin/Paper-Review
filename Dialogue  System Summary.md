@@ -1,10 +1,8 @@
 ## Dialogue  System Summary
 
-### Task-oriented Dialogue System
+### Dataset
 
-#### Dataset
-
-##### [Towards Scalable Multi-domain Conversational Agents: The Schema-Guided Dialogue Dataset](https://arxiv.org/abs/1909.05855)
+#### [Towards Scalable Multi-domain Conversational Agents: The Schema-Guided Dialogue Dataset](https://arxiv.org/abs/1909.05855)
 
 - Problem
   1. most datasets focusing on a single domain
@@ -18,7 +16,7 @@
   1. build a [large-scale multi-domain dataset](https://github.com/google-research-datasets/dstc8-schema-guided-dialogue), including 16 domains, 26 services and  16000 dialogues.
   2. they try to predict intentions and slot values on some unseen domains or services and obtain promising results.
   
-##### [Towards Deep Conversational Recommendations](https://arxiv.org/abs/1908.05391)
+#### [Towards Deep Conversational Recommendations](https://arxiv.org/abs/1908.05391)
 
 - Problem
   1. No large scale dataset for recommendation dialogue systems
@@ -26,19 +24,19 @@
 - Contribution
   1. Release a [dataset](https://redialdata.github.io/website/) for recommendation dialogue systems 
   
-##### [Personalizing Dialogue Agents: I have a dog, do you have pets too?](https://arxiv.org/pdf/1801.07243.pdf)
+#### [Personalizing Dialogue Agents: I have a dog, do you have pets too?](https://arxiv.org/pdf/1801.07243.pdf)
 
-#### Multi-Task
+### Multi-Task
 
-##### [Goal-Oriented Multi-Task BERT-Based Dialogue State Tracker](https://arxiv.org/abs/2002.02450)
+#### [Goal-Oriented Multi-Task BERT-Based Dialogue State Tracker](https://arxiv.org/abs/2002.02450)
 
 - Problem
   1. existing task-oriented dialogue systems cannot generalize to unseen tasks
 - Contribution
   - reformulate the dialogue state tracking task in the form of QA, where the dialogue history, slot, service and intent description correspond to the question and the dialogue state corresponds to the answer
  
-#### Recommendation
-##### [Towards Knowledge-Based Recommender Dialog System](https://arxiv.org/abs/1908.05391)
+### Recommendation
+#### [Towards Knowledge-Based Recommender Dialog System](https://arxiv.org/abs/1908.05391)
  - Problem
     1. conventional recommendation systems recommend items only depend on previous selected items, which makes the recommendation not accurate
  - Contribution
@@ -50,9 +48,9 @@
 
 [Building Task-Oriented Dialogue Systems for Online Shopping]([file:///home/vengin/Downloads/14261-66459-1-PB.pdf](file:///home/vengin/Downloads/14261-66459-1-PB.pdf))
 
-#### Persona
+### Persona
 
-##### [Generating Persona Consistent Dialogues by Exploiting Natural Language Inference](https://arxiv.org/abs/1911.05889)
+#### [Generating Persona Consistent Dialogues by Exploiting Natural Language Inference](https://arxiv.org/abs/1911.05889)
 - Problem
   1. current dialogue systems cannot generate persona consistent responses
 - Motivation
