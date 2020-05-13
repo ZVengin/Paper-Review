@@ -2,6 +2,8 @@
 
 ### Dataset
 
+### Multi-Task
+
 #### [Towards Scalable Multi-domain Conversational Agents: The Schema-Guided Dialogue Dataset](https://arxiv.org/abs/1909.05855)
 
 - Problem
@@ -15,18 +17,6 @@
 - Contributions
   1. build a [large-scale multi-domain dataset](https://github.com/google-research-datasets/dstc8-schema-guided-dialogue), including 16 domains, 26 services and  16000 dialogues.
   2. they try to predict intentions and slot values on some unseen domains or services and obtain promising results.
-  
-#### [Towards Deep Conversational Recommendations](https://arxiv.org/abs/1908.05391)
-
-- Problem
-  1. No large scale dataset for recommendation dialogue systems
-  
-- Contribution
-  1. Release a [dataset](https://redialdata.github.io/website/) for recommendation dialogue systems 
-  
-#### [Personalizing Dialogue Agents: I have a dog, do you have pets too?](https://arxiv.org/pdf/1801.07243.pdf)
-
-### Multi-Task
 
 #### [Goal-Oriented Multi-Task BERT-Based Dialogue State Tracker](https://arxiv.org/abs/2002.02450)
 
@@ -48,6 +38,14 @@
 
 [Building Task-Oriented Dialogue Systems for Online Shopping]([file:///home/vengin/Downloads/14261-66459-1-PB.pdf](file:///home/vengin/Downloads/14261-66459-1-PB.pdf))
 
+#### [Towards Deep Conversational Recommendations](https://arxiv.org/abs/1908.05391)
+
+- Problem
+  1. No large scale dataset for recommendation dialogue systems
+- Contribution
+  1. Release a [dataset](https://redialdata.github.io/website/) for recommendation dialogue systems 
+  
+
 ### Persona
 
 #### [Generating Persona Consistent Dialogues by Exploiting Natural Language Inference](https://arxiv.org/abs/1911.05889)
@@ -58,6 +56,8 @@
 - Contribution
   1. explicitly taking persona consistency into consideration during training phase
   2. adopting natural language inference module to decide whether the generated responses are consistent with the chat-bot's personas. 
+
+#### [Personalizing Dialogue Agents: I have a dog, do you have pets too?](https://arxiv.org/pdf/1801.07243.pdf)
 
 ### Negotiation 
 
