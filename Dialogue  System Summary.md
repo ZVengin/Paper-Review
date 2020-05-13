@@ -65,10 +65,8 @@
 - Problem
   1. end2end model is hard to control and interpret negotiation strategies
   2. directly optimize user's goal using RL with will lead to ungrammartical utterance
-  
 - Motivation
   1. freely to adjust negotiation straties in order to achive different negotiation goals without modifying language generation models
-  
 - Contribution
   1. propose a framework which decompose strategies and language generation
   2. propose a new negotiation dataset [CRAIGSLISTBARGAIN](https://stanfordnlp.github.io/cocoa/)
