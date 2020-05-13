@@ -58,3 +58,17 @@
 - Contribution
   1. explicitly taking persona consistency into consideration during training phase
   2. adopting natural language inference module to decide whether the generated responses are consistent with the chat-bot's personas. 
+
+### Negotiation 
+
+#### [Decoupling Strategy and Generation in Negotiation Dialogues](https://arxiv.org/pdf/1808.09637.pdf)
+- Problem
+  1. end2end model is hard to control and interpret negotiation strategies
+  2. directly optimize user's goal using RL with will lead to ungrammartical utterance
+  
+- Motivation
+  1. freely to adjust negotiation straties in order to achive different negotiation goals without modifying language generation models
+  
+- Contribution
+  1. propose a framework which decompose strategies and language generation
+  2. propose a new negotiation dataset [CRAIGSLISTBARGAIN](https://stanfordnlp.github.io/cocoa/)
