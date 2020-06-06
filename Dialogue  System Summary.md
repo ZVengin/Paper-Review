@@ -72,3 +72,16 @@
 - Contribution
   1. propose a framework which decompose strategies and language generation
   2. propose a new negotiation dataset [CRAIGSLISTBARGAIN](https://stanfordnlp.github.io/cocoa/)
+
+
+### Life-long Learning
+#### [Learning from dialogue after deployment: Feed yourself, Chatbot!](https://www.aclweb.org/anthology/P19-1358/)
+- Problem
+  1. it's difficult and expensive to collect enormous amounts of conversation data
+  2. conversal models cannot be updated once they have been trained
+- Motivation
+  1. develop a dialogue system which can continuously learning through the procedure of interacting with humans
+- Contribution
+  1. they develop a dialogue system which can continously learn dialogue strategies after it has been deployed
+  2. the feedbacks from human are natural language
+  3. their dialogue systems can assess system's response according to how users are satisfied
