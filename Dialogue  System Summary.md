@@ -80,7 +80,7 @@
   1. it's difficult and expensive to collect enormous amounts of conversation data
   2. conversal models cannot be updated once they have been trained
 - Motivation
-  1. develop a dialogue system which can continuously learning through the procedure of interacting with humans
+  1. develop a dialogue system which can continuously learning through the procedure of interacting with users
 - Contribution
   1. they develop a dialogue system which can continously learn dialogue strategies after it has been deployed
   2. the feedbacks from human are natural language
