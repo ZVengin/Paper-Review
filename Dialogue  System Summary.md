@@ -17,6 +17,12 @@
 - Contributions
   1. build a [large-scale multi-domain dataset](https://github.com/google-research-datasets/dstc8-schema-guided-dialogue), including 16 domains, 26 services and  16000 dialogues.
   2. they try to predict intentions and slot values on some unseen domains or services and obtain promising results.
+  
+### Personality
+#### BlendedSkillTalk
+#### [Personalization in Goal-oriented Dialog](https://arxiv.org/pdf/1706.07503.pdf)
+- personalized-dialog-full
+#### 
 
 #### [Goal-Oriented Multi-Task BERT-Based Dialogue State Tracker](https://arxiv.org/abs/2002.02450)
 
