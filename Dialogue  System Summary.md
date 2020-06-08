@@ -85,3 +85,18 @@
   1. they develop a dialogue system which can continously learn dialogue strategies after it has been deployed
   2. the feedbacks from human are natural language
   3. their dialogue systems can assess system's response according to how users are satisfied
+  
+  
+### Emotion
+#### [DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset](https://www.aclweb.org/anthology/I17-1099/)
+- Problem
+  1. there is no dataset for buidling a dialogue system for daily conversations
+  2. existing dialogue systems are unable to generate response containing spcific emotions
+  
+- Motivation
+  1. task-oriented conversation datasets are small-scale and oriented for specified tasks, open domain datasets like opensubtitles are too diverse to capture main topics and datasets like twitter are too noisy. 
+  2. the target of daily conversations lies in two aspects: (1) exchanging information (2) enhancing socail bonding. Emotion expression is an important part of social bonding, but existing dialogue systems unable to express emotions.
+
+- Contribution
+  1. Collecting a large dataset for daily conversations and conversations with emotions
+  
