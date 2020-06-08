@@ -58,6 +58,12 @@
 - Contribution
   1. explicitly taking persona consistency into consideration during training phase
   2. adopting natural language inference module to decide whether the generated responses are consistent with the chat-bot's personas. 
+  
+#### [A Persona-Based Neural Conversation Model](https://www.aclweb.org/anthology/P16-1094/)
+
+#### [Exploring Personalized Neural Conversational Models](https://www.ijcai.org/Proceedings/2017/521)
+
+#### [Personalizing a Dialogue System with Transfer Reinforcement Learning](https://arxiv.org/abs/1610.02891)
 
 #### [Personalizing Dialogue Agents: I have a dog, do you have pets too?](https://arxiv.org/pdf/1801.07243.pdf)
 
