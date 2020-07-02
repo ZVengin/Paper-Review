@@ -110,3 +110,6 @@
 #### [Predicting Depression in Screening Interviews from Latent Categorization of Interview Prompts](https://www.aclweb.org/anthology/2020.acl-main.2/)
 - This work propose a new task to diagnose depression depression personaility according to the interview conversation transcripts.
 
+### Slot Filling
+#### [Coach: A Coarse-to-Fine Approach for Cross-domain Slot Filling](https://www.aclweb.org/anthology/2020.acl-main.3.pdf)
+- This work tries to cope with problem of lack of training data in some domains. Therefore, they adopt cross-domain slot filling to solve the problem.
