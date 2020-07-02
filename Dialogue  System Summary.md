@@ -106,3 +106,7 @@
 - Contribution
   1. Collecting a large dataset for daily conversations and conversations with emotions
   
+### Depression Diagnosis
+#### [Predicting Depression in Screening Interviews from Latent Categorization of Interview Prompts](https://www.aclweb.org/anthology/2020.acl-main.2/)
+- This work propose a new task to diagnose depression depression personaility according to the interview conversation transcripts.
+
