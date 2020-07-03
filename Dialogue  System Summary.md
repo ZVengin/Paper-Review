@@ -5,59 +5,26 @@
 ### Multi-Task
 
 #### [Towards Scalable Multi-domain Conversational Agents: The Schema-Guided Dialogue Dataset](https://arxiv.org/abs/1909.05855)
-
-- Problem
-  1. most datasets focusing on a single domain
-  2. existing multi-domain datasets are relatively small
-  3. existing task-oriented dialogue systems cannot generalize to unseen tasks
-- Motivation
-  1. practical virtual assistants should be capable of handling large-scale tasks.
-  2. Based on the observation that most tasks have the overlapping of functionality. so dialogue system should be able to handle unseen tasks by leveraging the experience of other similar tasks.
-  3. some tasks have little or no training data, which requires dialogue system to leverage their knowledge learned from other tasks. 
-- Contributions
-  1. build a [large-scale multi-domain dataset](https://github.com/google-research-datasets/dstc8-schema-guided-dialogue), including 16 domains, 26 services and  16000 dialogues.
-  2. they try to predict intentions and slot values on some unseen domains or services and obtain promising results.
+- there are no lagre scale datasets for multi-domain dialogue systems and existing dialogue systems cannot be generalized to unseen domains. Therefore, a [large-scale multi-domain dataset](https://github.com/google-research-datasets/dstc8-schema-guided-dialogue), including 16 domains, 26 services and  16000 dialogues, is constructed.
   
 
 #### [Goal-Oriented Multi-Task BERT-Based Dialogue State Tracker](https://arxiv.org/abs/2002.02450)
+- existing task-oriented dialogue systems cannot generalize to unseen tasks, therefore, they reformulate the dialogue state tracking task in the form of QA, where the dialogue history, slot, service and intent description correspond to the question and the dialogue state corresponds to the answer
 
-- Problem
-  1. existing task-oriented dialogue systems cannot generalize to unseen tasks
-- Contribution
-  - reformulate the dialogue state tracking task in the form of QA, where the dialogue history, slot, service and intent description correspond to the question and the dialogue state corresponds to the answer
-
- 
 ### Recommendation
 #### [Towards Knowledge-Based Recommender Dialog System](https://arxiv.org/abs/1908.05391)
- - Problem
-    1. conventional recommendation systems recommend items only depend on previous selected items, which makes the recommendation not accurate
- - Contribution
-    1. combine the recommendation system with dialogue system
-    2. use knowledge graph to find the items to be recommended
- - Motivations
-    1. during conversation, users may convey some information about the desirable items. we can use these information to improve the recommendation accuracy
-    2. the information conveyed in conversations can be connected with desirable items in knowledge graphs. So using knowledge graph can help find the desirable items according to the information in dialogues. 
-
-[Building Task-Oriented Dialogue Systems for Online Shopping]([file:///home/vengin/Downloads/14261-66459-1-PB.pdf](file:///home/vengin/Downloads/14261-66459-1-PB.pdf))
+ - conventional recommendation systems recommend items only depend on previous selected items, which makes the recommendation not accurate. So they combine the recommendation system with dialogue system and use knowledge graph to find the items to be recommended
+ 
+#### [Building Task-Oriented Dialogue Systems for Online Shopping]([file:///home/vengin/Downloads/14261-66459-1-PB.pdf](file:///home/vengin/Downloads/14261-66459-1-PB.pdf))
 
 #### [Towards Deep Conversational Recommendations](https://arxiv.org/abs/1908.05391)
-
-- Problem
-  1. No large scale dataset for recommendation dialogue systems
-- Contribution
-  1. Release a [dataset](https://redialdata.github.io/website/) for recommendation dialogue systems 
+- No large scale dataset for recommendation dialogue systems. they release a [dataset](https://redialdata.github.io/website/) for recommendation dialogue systems 
   
 
 ### Persona
 
 #### [Generating Persona Consistent Dialogues by Exploiting Natural Language Inference](https://arxiv.org/abs/1911.05889)
-- Problem
-  1. current dialogue systems cannot generate persona consistent responses
-- Motivation
-  1. persona consistent dialogues look more natural and reasonable
-- Contribution
-  1. explicitly taking persona consistency into consideration during training phase
-  2. adopting natural language inference module to decide whether the generated responses are consistent with the chat-bot's personas.
+- current dialogue systems cannot generate persona consistent responses. they explicitly take persona consistency into consideration during training phase and also adopt natural language inference module to decide whether the generated responses are consistent with the chat-bot's personas.
   
 #### [Large Scale Multi-Actor Generative Dialog Modeling](https://www.aclweb.org/anthology/2020.acl-main.8.pdf)
 - Existing dialogue systems are faced with the problem of inconsistent personality and averyage personality in conversations. 
@@ -85,29 +52,12 @@
 
 ### Life-long Learning
 #### [Learning from dialogue after deployment: Feed yourself, Chatbot!](https://www.aclweb.org/anthology/P19-1358/)
-- Problem
-  1. it's difficult and expensive to collect enormous amounts of conversation data
-  2. conversal models cannot be updated once they have been trained
-- Motivation
-  1. develop a dialogue system which can continuously learning through the procedure of interacting with users
-- Contribution
-  1. they develop a dialogue system which can continously learn dialogue strategies after it has been deployed
-  2. the feedbacks from human are natural language
-  3. their dialogue systems can assess system's response according to how users are satisfied
+- it's difficult and expensive to collect enormous amounts of conversation data and conversal models cannot be updated once they have been trained. so they develop a dialogue system which can continously learn dialogue strategies after it has been deployed
   
   
 ### Emotion
 #### [DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset](https://www.aclweb.org/anthology/I17-1099/)
-- Problem
-  1. there is no dataset for buidling a dialogue system for daily conversations
-  2. existing dialogue systems are unable to generate response containing spcific emotions
-  
-- Motivation
-  1. task-oriented conversation datasets are small-scale and oriented for specified tasks, open domain datasets like opensubtitles are too diverse to capture main topics and datasets like twitter are too noisy. 
-  2. the target of daily conversations lies in two aspects: (1) exchanging information (2) enhancing socail bonding. Emotion expression is an important part of social bonding, but existing dialogue systems unable to express emotions.
-
-- Contribution
-  1. Collecting a large dataset for daily conversations and conversations with emotions
+- there is no dataset for buidling a dialogue system for daily conversations and existing dialogue systems are unable to generate response containing spcific emotions. Collecting a large dataset for daily conversations and conversations with emotions
   
 ### Depression Diagnosis
 #### [Predicting Depression in Screening Interviews from Latent Categorization of Interview Prompts](https://www.aclweb.org/anthology/2020.acl-main.2/)
