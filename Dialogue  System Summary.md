@@ -118,3 +118,11 @@
 ### Evaluation
 #### [Designing Precise and Robust Dialogue Response Evaluators](https://www.aclweb.org/anthology/2020.acl-main.4.pdf)
 - This work proposes a response evaluator which is independent of reference responses. This evaluator explots the power of semi-supervised learning and pretained language model. The evaluator achieves a promising result on the correlation with human evaluation.
+
+
+
+### Knowledge Based
+#### [Generating Informative Conversational Response using Recurrent Knowledge-Interaction and Knowledge-Copy](https://www.aclweb.org/anthology/2020.acl-main.6.pdf)
+- Existing dialogue systems are unable to merge the multiple knowledge entries into one repsonse. They propose a method recurrent knowledge interaction and a copy mechanism to sovle the problem
+
+
