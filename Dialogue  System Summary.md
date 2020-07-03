@@ -57,7 +57,10 @@
   1. persona consistent dialogues look more natural and reasonable
 - Contribution
   1. explicitly taking persona consistency into consideration during training phase
-  2. adopting natural language inference module to decide whether the generated responses are consistent with the chat-bot's personas. 
+  2. adopting natural language inference module to decide whether the generated responses are consistent with the chat-bot's personas.
+  
+#### [Large Scale Multi-Actor Generative Dialog Modeling](https://www.aclweb.org/anthology/2020.acl-main.8.pdf)
+- Existing dialogue systems are faced with the problem of inconsistent personality and averyage personality in conversations. 
   
 #### [A Persona-Based Neural Conversation Model](https://www.aclweb.org/anthology/P16-1094/)
 
@@ -126,3 +129,6 @@
 - Existing dialogue systems are unable to merge the multiple knowledge entries into one repsonse. They propose a method recurrent knowledge interaction and a copy mechanism to sovle the problem
 
 
+### Pretrain Model
+#### [PLATO: Pre-trained Dialogue Generation Model with Discrete Latent Variable](https://www.aclweb.org/anthology/2020.acl-main.9.pdf)
+- dialogue systems are hevality limited by training data, therefore, they propose a pretraining framework to support various kinds of dialogue systems like chit-chat, knowledge grounded dialogues, and conversational question answering. 
