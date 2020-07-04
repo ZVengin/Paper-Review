@@ -1,4 +1,4 @@
-# Controllable Sentence Generation
+## Controllable Sentence Generation
 
 ### [Toward Controlled Generation of Text](https://arxiv.org/pdf/1703.00955.pdf)
 
@@ -26,7 +26,7 @@
 - problems:
   - RNN based encoder-decoder model is too slow since it computes in a sequence manner
 - Contributions:
-  - developed a CNN based encoder-decoder model 
+  -  developed a CNN based encoder-decoder model 
 
 ### [Semantically Conditioned LSTM-based Natural Language Generation for Spoken Dialogue Systems](https://www.aclweb.org/anthology/D15-1199.pdf) 
 
@@ -47,4 +47,6 @@
 ### [Controllable Abstractive Summarization](https://arxiv.org/pdf/1711.05217.pdf)
 
 
-
+## Text Editing
+#### [Fact-based Text Editing](https://www.aclweb.org/anthology/2020.acl-main.17.pdf)
+- in table-to-text task, the generated sentences may miss some facts or include unsupported facts, therefore, they propose a task to revise the generated texts as well as construct a dataset for this task. 
