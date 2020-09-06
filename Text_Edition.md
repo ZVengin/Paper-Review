@@ -10,4 +10,5 @@
 
 ### Data-to-Text
 #### [Fact-based Text Editing](https://www.aclweb.org/anthology/2020.acl-main.17.pdf)
-- in table-to-text task, the generated sentences may miss some facts or include unsupported facts, therefore, they propose a task to revise the generated texts as well as construct a dataset for this task. 
+1. in table-to-text task, the generated sentences may miss some facts or include unsupported facts, therefore, they propose a task to revise the generated texts as well as construct a dataset for this task.
+2. this work is so meaningful once the original table-to-text achieves human equivalent performance.
