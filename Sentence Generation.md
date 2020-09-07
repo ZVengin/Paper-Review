@@ -46,7 +46,5 @@
 
 ### [Controllable Abstractive Summarization](https://arxiv.org/pdf/1711.05217.pdf)
 
-
-## Text Editing
-#### [Fact-based Text Editing](https://www.aclweb.org/anthology/2020.acl-main.17.pdf)
-- in table-to-text task, the generated sentences may miss some facts or include unsupported facts, therefore, they propose a task to revise the generated texts as well as construct a dataset for this task. 
+### [Sentence-Level Content Planning and Style Specification for Neural Text Generation](https://arxiv.org/pdf/1909.00734.pdf)
+ - This paper focus on content planning for text generation. Previous works do content planning and surface realization in seperate compnents, which requires data aquiration and system engineering, but for recently neural models, they are faced with the problem of lacking coherence and faith. Therefore, in this paper, they proposed an end-to-end model to explicitly do content planning before the generation of text. 
