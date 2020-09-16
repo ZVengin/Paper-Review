@@ -15,5 +15,5 @@
 2. this work is so meaningful once the original table-to-text achieves human equivalent performance.
 
 ### Post-editing
-### [A Simple and Effective Approach to Automatic Post-Editing with Transfer Learning](https://www.aclweb.org/anthology/P19-1292/)
+#### [A Simple and Effective Approach to Automatic Post-Editing with Transfer Learning](https://www.aclweb.org/anthology/P19-1292/)
 1. this paper focus on post-editing problem which aims to correct the mistakes in machine translation results. They found that existing works rely on enormous manually labeled data and annoating these data is expensive, moreover, the time of training a APE model with large corpus is equivalent to that training a translation from scracth, which makes the motivation that APE avoids retraining translation model when doing customized edition become meaningless. so they propose to adopt pretrained language model BERT as encoder and decoder in order to alleviate the dependence on labled data. The experiments show that their model adopting BERT can achieve competitive performance with much less labeled training data. 
