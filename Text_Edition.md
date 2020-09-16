@@ -17,3 +17,8 @@
 ### Post-editing
 #### [A Simple and Effective Approach to Automatic Post-Editing with Transfer Learning](https://www.aclweb.org/anthology/P19-1292/)
 1. this paper focus on post-editing problem which aims to correct the mistakes in machine translation results. They found that existing works rely on enormous manually labeled data and annoating these data is expensive, moreover, the time of training a APE model with large corpus is equivalent to that training a translation from scracth, which makes the motivation that APE avoids retraining translation model when doing customized edition become meaningless. so they propose to adopt pretrained language model BERT as encoder and decoder in order to alleviate the dependence on labled data. The experiments show that their model adopting BERT can achieve competitive performance with much less labeled training data. 
+
+
+### Fusing sentence
+#### [Learning to Fuse Disparate Sentences](https://www.aclweb.org/anthology/W11-1607/)
+1. this paper focus on fusing sentences. this work fusing sentences extract from the same document. usually fusing sentences include merge dependecy trees of input sentences into dependency graph and then select one dependency tree to generated the fused sentence. during the dependecy graph merge period, it is necessary to do alignments among different syntactic dependency trees. they integrate both dependency graph alignments and dependency tree selection into loss function.
