@@ -78,4 +78,4 @@
 
 ### Image Editing
 #### [A Multimodal Dialogue System for Conversational Image Editing](https://arxiv.org/pdf/2002.06484.pdf)
-- It is very difficult for a non-professional person to edit image, therefore, they propose a dialogue system to help users so that users can edit image by instructing dialogue systems from high-level using natural language. They propose a dialogue system based on POMP model and RL method. 
+- It is very difficult for a non-professional person to edit image, therefore, they propose a dialogue system to help users so that users can edit image by instructing dialogue systems from high-level using natural language. They propose a dialogue system based on POMP model and RL method.  
