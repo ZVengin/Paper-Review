@@ -79,3 +79,6 @@
 ### Image Editing
 #### [A Multimodal Dialogue System for Conversational Image Editing](https://arxiv.org/pdf/2002.06484.pdf)
 - It is very difficult for a non-professional person to edit image, therefore, they propose a dialogue system to help users so that users can edit image by instructing dialogue systems from high-level using natural language. They propose a dialogue system based on POMP model and RL method.  
+
+#### [Edit me: A Corpus and a Framework for Understanding Natural Language Image Editing](https://www.aclweb.org/anthology/L18-1683.pdf)
+- This paper propose the task of image editing, which enables users to edit images using natural langues, and they also collect a dataset for this task. In this task, they hope to convert the natural language instructions from users to commands which can be executed by image editing software such as photoshop. therefore, they devised a framework to represents users' instructions.
