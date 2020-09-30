@@ -5,6 +5,9 @@
 #### [Hierarchical Neural Story Generation](https://www.aclweb.org/anthology/P18-1082.pdf)
 - this paper solves the problem that the generated story is not closedly related to the given pompt, therefore, they introduce fusion mechansim in their work. So in their work, they first generate the prompt which captures the main contents of the story and generate the story following the prompt using fusion model. They also collect a story generate dataset. 
 
+#### [A Skeleton-Based Model for Promoting Coherence Among Sentences in Narrative Story Generation](https://www.aclweb.org/anthology/D18-1462.pdf)
+- this paper solves the problem that the sentences in generated story should have semantic connections, where semantic connections denote that . so they proposed skeleton-based model for promoting coherence among sentences. in their model, they first learning to generate skeleton using RL and extend skeleton to stories. the skeleton means the key words or phrases in sentences.
+
 ### Story-line based story generation
 
 
