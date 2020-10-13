@@ -18,8 +18,8 @@
 
 
 ### Revise story generation
-#### [Content Planning for Neural Story Generation with Aristotelian Rescoring](https://2021.eacl.org/committees/program)
-- This paper try to revise the plot of the generated stories. according to the characteristirc of a good story plot, they design a a set of ranking models to assign a score to each possible plot for each given prompt. they find the best story plot by ranking candidate plots according to the average score over all ranking models.
+#### [Content Planning for Neural Story Generation with Aristotelian Rescoring](https://arxiv.org/pdf/2009.09870.pdf)
+- This paper try to revise the plot of the generated stories. according to the characteristirc of a good story plot, they design a a set of ranking models to assign a score to each possible plot for each given prompt. they find the best story plot by ranking candidate plots according to the average score over all ranking models. the plot of story is represented as a sequence of events.
 - from their example, there many repeatition of contents, missing details about events, the order of events may be chaotic.  
 
 
