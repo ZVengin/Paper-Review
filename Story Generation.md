@@ -9,7 +9,8 @@
 - this paper solves the problem that the sentences in generated story should have semantic connections, where semantic connections denote that . so they proposed skeleton-based model for promoting coherence among sentences. in their model, they first learning to generate skeleton using RL and extend skeleton to stories. the skeleton means the key words or phrases in sentences.
 
 ### Story-line based story generation
-
+####[Towards Controllable Story Generation](https://pdfs.semanticscholar.org/f9de/0d4a5adefc59bfb033f162d8a4a5212882cf.pdf?_ga=2.186340393.1437532588.1602585748-917632008.1599084173&_gac=1.159122888.1599460111.CjwKCAjwkdL6BRAREiwA-kiczH95rmO86D0s6vqHi4gsT7dhL-quGeLMV0UDh8OIocXSHdRTGup0PxoCLKsQAvD_BwE)
+- this paper attempts to control story generation using some control factors like labels indicating the sentiment of the end of story and keywords indicating the storyline. 
 
 ### Interaction based story generation
 #### [Plan, Write, and Revise: an Interactive System for Open-Domain Story Generation](https://www.aclweb.org/anthology/N19-4016.pdf)
