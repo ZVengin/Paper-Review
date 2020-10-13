@@ -20,3 +20,8 @@
 #### [Content Planning for Neural Story Generation with Aristotelian Rescoring](https://2021.eacl.org/committees/program)
 - This paper try to revise the plot of the generated stories. according to the characteristirc of a good story plot, they design a a set of ranking models to assign a score to each possible plot for each given prompt. they find the best story plot by ranking candidate plots according to the average score over all ranking models.
 - from their example, there many repeatition of contents, missing details about events, the order of events may be chaotic.  
+
+
+### Event to sentence
+#### [Story Realization: Expanding Plot Events into Sentences](https://arxiv.org/pdf/1909.03480.pdf)
+- This paper forces models to include input event into the sentence using five different models. 
