@@ -13,7 +13,8 @@
 - this paper attempts to control story generation using some control factors like labels indicating the sentiment of the end of story and keywords indicating the storyline. 
 
 #### [Strategies for Structuring Story Generation](https://arxiv.org/pdf/1902.01109.pdf)
-- this paper aims to make long story more coherent and model long-distance dependency among contents. so they generate story in two steps: (1) they generate a sequence of actions from prompt (2) generate story following the guidance of the actions. the action here is represented with a predicate-agrument structure.   
+- this paper aims to make long story more coherent and model long-distance dependency among contents. so they generate story in two steps: (1) they generate a sequence of actions from prompt (2) generate story following the guidance of the actions. the action here is represented with a predicate-agrument structure. 
+- diversity, repeatition and lacking details are main problem in their results. 
 
 ### Interaction based story generation
 #### [Plan, Write, and Revise: an Interactive System for Open-Domain Story Generation](https://www.aclweb.org/anthology/N19-4016.pdf)
