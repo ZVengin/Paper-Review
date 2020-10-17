@@ -17,6 +17,9 @@
 #### [Enriching the WebNLG corpus](https://www.aclweb.org/anthology/W18-6521.pdf)
 1. this paper enriched the webnlg dataset in generating templates by replacing entities in reference texts with general tags, in generating reference expressions by finding the surface realization of general tags in reference texts and in generating German version by translating the original data.
 
+#### [The WebNLG Challenge: Generating Text from RDF Data](https://www.aclweb.org/anthology/W17-3518.pdf)
+1. this paper introduce a task which aims to tranlate RDF data to text. they propose a dataset named webnlg and define the framework of webnlg challenge.
+
 ### Post-editing
 #### [A Simple and Effective Approach to Automatic Post-Editing with Transfer Learning](https://www.aclweb.org/anthology/P19-1292/)
 1. this paper focus on post-editing problem which aims to correct the mistakes in machine translation results. They found that existing works rely on enormous manually labeled data and annoating these data is expensive, moreover, the time of training a APE model with large corpus is equivalent to that training a translation from scracth, which makes the motivation that APE avoids retraining translation model when doing customized edition become meaningless. so they propose to adopt pretrained language model BERT as encoder and decoder in order to alleviate the dependence on labled data. The experiments show that their model adopting BERT can achieve competitive performance with much less labeled training data. 
