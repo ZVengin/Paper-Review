@@ -48,3 +48,9 @@
 
 ### [Sentence-Level Content Planning and Style Specification for Neural Text Generation](https://arxiv.org/pdf/1909.00734.pdf)
  - This paper focus on content planning for text generation. Previous works do content planning and surface realization in seperate compnents, which requires data aquiration and system engineering, but for recently neural models, they are faced with the problem of lacking coherence and faith. Therefore, in this paper, they proposed an end-to-end model to explicitly do content planning before the generation of text. 
+ 
+ #### [Enriching the WebNLG corpus](https://www.aclweb.org/anthology/W18-6521.pdf)
+1. this paper enriched the webnlg dataset in generating templates by replacing entities in reference texts with general tags, in generating reference expressions by finding the surface realization of general tags in reference texts and in generating German version by translating the original data.
+
+#### [The WebNLG Challenge: Generating Text from RDF Data](https://www.aclweb.org/anthology/W17-3518.pdf)
+1. this paper introduce a task which aims to tranlate RDF data to text. they propose a dataset named webnlg and define the framework of webnlg challenge.
