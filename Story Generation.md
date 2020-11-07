@@ -30,3 +30,8 @@
 ### Event to sentence
 #### [Story Realization: Expanding Plot Events into Sentences](https://arxiv.org/pdf/1909.03480.pdf)
 - This paper forces models to include input event into the sentence using five different models. 
+
+
+### Script generation
+#### [Hierarchical Quantized Representations for Script Generation]()
+1. this paper explores the problem of generating script for a scenerio. the script describes how a sequence of events is unfold under a specific scenerio. they found that previous works which solely relies on language model cannot generate coherent events as they ignore the hierarchical characteristic of script. therefore, in their work, they propose a hierarchical quantized autoencoder model to implicitly capturing the hierarchical structure of script.
