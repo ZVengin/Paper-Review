@@ -16,7 +16,7 @@
 - this paper also studies the problem of generating stories in a herarchical way where an outline is first generated and then the story is generated conditioned on the outline. the outline in their work is a single sentence which summarizes the main contents of the story.
 
 #### [Consistency and Coherency Enhanced Story Generation](https://arxiv.org/pdf/2010.08822.pdf)
-1. this paper belongs to the idea that generating story in-two-steps in order to improve the coherence and consistency of story. they first generate an outline of the story which is consist of a set of keywords or an abstract, and then generate story based on the outline and prompt. They also augment the generation model with a disclose relation classifier to distinguish the discourse relation between two consecutive sentence. they suggest that this way can improve story's coherence.
+- this paper belongs to the idea that generating story in-two-steps in order to improve the coherence and consistency of story. they first generate an outline of the story which is consist of a set of keywords or an abstract, and then generate story based on the outline and prompt. They also augment the generation model with a disclose relation classifier to distinguish the discourse relation between two consecutive sentence. they suggest that this way can improve story's coherence.
 
 #### [Progressive Generation of Long Text]()
 
@@ -31,6 +31,12 @@
 #### [Strategies for Structuring Story Generation](https://arxiv.org/pdf/1902.01109.pdf)
 - this paper aims to make long story more coherent and model long-distance dependency among contents. so they generate story in two steps: (1) they generate a sequence of actions from prompt (2) generate story following the guidance of the actions. the action here is represented with a predicate-agrument structure. 
 - diversity, repeatition and lacking details are main problem in their results. 
+
+#### [Towards Better Storylines with Sentence-Level Language Models]()
+- this paper aims at generating coherent ending for storyline. They find that existing works generate storylines in word-level and cannot learn the dependency between sentences. Therefore, they tries to rank a set of candidate endings and select the most appropriate one as ending, instead of directly generating the ending based on context.
+
+#### [PLOTMACHINES: Outline-Conditioned Generation with Dynamic Plot STate Tracking]()
+- this paper also studies coherent story generation. They find that existing works  
 
 
 ### Interaction based story generation
@@ -58,7 +64,7 @@
 
 ### Script generation
 #### [Hierarchical Quantized Representations for Script Generation]()
-1. this paper explores the problem of generating script for a scenerio. the script describes how a sequence of events is unfold under a specific scenerio. they found that previous works which solely relies on language model cannot generate coherent events as they ignore the hierarchical characteristic of script. therefore, in their work, they propose a hierarchical quantized autoencoder model to implicitly capturing the hierarchical structure of script.
+- this paper explores the problem of generating script for a scenerio. the script describes how a sequence of events is unfold under a specific scenerio. they found that previous works which solely relies on language model cannot generate coherent events as they ignore the hierarchical characteristic of script. therefore, in their work, they propose a hierarchical quantized autoencoder model to implicitly capturing the hierarchical structure of script.
 
 
 ### Analysis
