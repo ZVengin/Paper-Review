@@ -38,6 +38,12 @@
 #### [PLOTMACHINES: Outline-Conditioned Generation with Dynamic Plot STate Tracking]()
 - this paper also studies coherent story generation. They find that existing works  
 
+#### [Controllable Neural Story Plot Generation via Reward Shaping]()
+
+#### [Narrative Text Generation with a Latent Discrete Plan]()
+
+
+
 
 ### Interaction based story generation
 #### [Plan, Write, and Revise: an Interactive System for Open-Domain Story Generation](https://www.aclweb.org/anthology/N19-4016.pdf)
@@ -70,3 +76,8 @@
 ### Analysis
 #### [Do Massively Pretrained Language Models Make Better StoryTellers]()
 - this paper studies the existing open-domain text generation models.two models including GPT and fusion model are studied on prompt based story generation dataset. They find that GPT model can generate more relevant stories to the given prompt and more coherent than the fusion model as well. But both models achieve similar performance on repeatition , word rareness, syntactic style and complexisty. They also find that sample size of GPT during decoding has an obvious impact on the performance.
+
+
+### Commonsense
+#### [A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation]()
+
