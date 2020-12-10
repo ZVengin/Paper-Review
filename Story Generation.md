@@ -78,6 +78,21 @@
 - this paper studies the existing open-domain text generation models.two models including GPT and fusion model are studied on prompt based story generation dataset. They find that GPT model can generate more relevant stories to the given prompt and more coherent than the fusion model as well. But both models achieve similar performance on repeatition , word rareness, syntactic style and complexisty. They also find that sample size of GPT during decoding has an obvious impact on the performance.
 
 
-### Commonsense
+### Other
 #### [A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation]()
+#### [Counterfactual Story Reasoning and Generation]()
+#### [Generating Diverse Story ]
+
+
+### ToRead
+#### [Neural Text Generation in Stories Using Entity Representation as Context]()
+#### [Unified Language Model Pre-training for Understanding and Generation]()
+#### [Story Ending Generation with Incremental Encoding and Commonsense Knowledge]()
+#### [Toward Better Automatic Storytelling]()
+#### [Planning Stories]()
+#### [Story Generation With Crowdsourced Plot Graphs]()
+#### [An Interactive Program Writing Stories]()
+#### [Strategies  for Structing Story Generation]()
+#### [Unsupervised Hierarchical Story Infilling]()
+
 
