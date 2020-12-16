@@ -1,6 +1,5 @@
 ### Theme-based story generation
-#### [Hierarchical Quantized Representations for Script Generation](https://arxiv.org/abs/1808.09542)
-- this paper is about script induction, where they try to predict the next event based on context. in this work, they solved two problems: (1) previous works can only generate locally coherent script (2) previous works ignore the hierachical structure of script. so they proposed a hierachical quatitive autoencoder model to model the script inner structures. but the results are not so illusing and they didn't define their problem clearly. 
+
 
 #### [Hierarchical Neural Story Generation](https://www.aclweb.org/anthology/P18-1082.pdf)
 - this paper solves the problem that the generated story is not closedly related to the given pompt, therefore, they introduce fusion mechansim in their work. So in their work, they first generate the prompt which captures the main contents of the story and generate the story following the prompt using fusion model. They also collect a story generate dataset. 
@@ -19,9 +18,11 @@
 - this paper belongs to the idea that generating story in-two-steps in order to improve the coherence and consistency of story. they first generate an outline of the story which is consist of a set of keywords or an abstract, and then generate story based on the outline and prompt. They also augment the generation model with a disclose relation classifier to distinguish the discourse relation between two consecutive sentence. they suggest that this way can improve story's coherence.
 
 #### [Progressive Generation of Long Text]()
+- this paper explores how to generate long text in a herarchical way. they find that existing works only focus on short text generation and the promising long text generation model like GPT facing the problem of incoherence and repeatition. Therefore, they proporse to first generate a backbone of the text which consists of a set of key phrases and then filling the interval between phrases with words to make it become a complete text.
 
 #### [Summarize, Outline, and Elaborate: Long-Text Generation via Hierarchical Supervision from Extractive Summaries]()
-
+- this paper explores how to generate long stories in a hierarchical way. they find that pretrained language models like GPT focuses on predicting local words and ignores the
+high-level structure of text. Although existing coarse-to-fine story generation approach which first generate a summary of the story like a set of key words or a single sentece summary and then generate stories following the guidance of the summary. They argue that the keywords and a single-sentence summary are limited in capacity and cannot capture the high-level sturcture of text. Therefore, they propose to generate multi-sentence summaries with each sentence corresponding to a segment of story, and each segment can be generated following its own summary.
 
 
 ### Story-line based story generation
@@ -38,7 +39,7 @@
 #### [PLOTMACHINES: Outline-Conditioned Generation with Dynamic Plot STate Tracking]()
 - this paper also studies coherent story generation. They find that existing works  
 
-#### [Controllable Neural Story Plot Generation via Reward Shaping]()
+
 
 #### [Narrative Text Generation with a Latent Discrete Plan]()
 
@@ -72,6 +73,11 @@
 #### [Hierarchical Quantized Representations for Script Generation]()
 - this paper explores the problem of generating script for a scenerio. the script describes how a sequence of events is unfold under a specific scenerio. they found that previous works which solely relies on language model cannot generate coherent events as they ignore the hierarchical characteristic of script. therefore, in their work, they propose a hierarchical quantized autoencoder model to implicitly capturing the hierarchical structure of script.
 
+#### [Hierarchical Quantized Representations for Script Generation](https://arxiv.org/abs/1808.09542)
+- this paper is about script induction, where they try to predict the next event based on context. in this work, they solved two problems: (1) previous works can only generate locally coherent script (2) previous works ignore the hierachical structure of script. so they proposed a hierachical quatitive autoencoder model to model the script inner structures. but the results are not so illusing and they didn't define their problem clearly. 
+
+#### [Controllable Neural Story Plot Generation via Reward Shaping]()
+- this paper aims to control the generation of story plots using reinforcement learning. Previous works generate plots by first manully planning the contents which is controllable but expensive and requires domain knowledge. Recently for neural models althouth they don't require manually planning, we cannot the guide the generation of plots. to remedy this issue, they propose to control story plots generation using reinforcement learning so that the generated plots meet users' goal. In order to deal with sparse reward problem. they design a dense rewards function for their model.
 
 ### Analysis
 #### [Do Massively Pretrained Language Models Make Better StoryTellers]()
