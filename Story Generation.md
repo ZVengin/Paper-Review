@@ -1,4 +1,4 @@
-### Theme-based story generation
+### Hierarchical story generation
 
 
 #### [Hierarchical Neural Story Generation](https://www.aclweb.org/anthology/P18-1082.pdf)
