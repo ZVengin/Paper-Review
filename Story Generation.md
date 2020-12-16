@@ -39,9 +39,8 @@ high-level structure of text. Although existing coarse-to-fine story generation 
 #### [PLOTMACHINES: Outline-Conditioned Generation with Dynamic Plot STate Tracking]()
 - this paper also studies coherent story generation. They find that existing works  
 
-
-
 #### [Narrative Text Generation with a Latent Discrete Plan]()
+- this paper generates short stories using a hierarchical variational auto-encoder. they follow previous works which aims to generate coherent stories using storylines e.g. keywords, phrases, evnt representations and plot graph, but they find that the storylines in previous works are generated using an off-the-shelf tool which is too heuristic and cannot jointly learn during training phase. Therefore, they propose to model the storyline (a sequence of keywords, each keyword corresponds to a sentence) as a sequence of latent variables. during inference phase, the storyline first is sampled from the latent variables and then generate stories conditioning on the sampled story.
 
 
 
