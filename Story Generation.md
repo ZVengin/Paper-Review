@@ -42,6 +42,8 @@ high-level structure of text. Although existing coarse-to-fine story generation 
 #### [Narrative Text Generation with a Latent Discrete Plan]()
 - this paper generates short stories using a hierarchical variational auto-encoder. they follow previous works which aims to generate coherent stories using storylines e.g. keywords, phrases, evnt representations and plot graph, but they find that the storylines in previous works are generated using an off-the-shelf tool which is too heuristic and cannot jointly learn during training phase. Therefore, they propose to model the storyline (a sequence of keywords, each keyword corresponds to a sentence) as a sequence of latent variables. during inference phase, the storyline first is sampled from the latent variables and then generate stories conditioning on the sampled story.
 
+#### [Outline to Story: Fine-Grained Controllable Story Generation from Cascaded Events](https://arxiv.org/pdf/2101.00822.pdf)
+- this paper explories generating story from an outline and want to control the story in a fine-granularity level. In their work, they use events as their outline which are extract from dataset. they finetune GPT2 with their dataset in two different ways, one is that events and paragraphs are appeared in sequence interlevaingly, the other one is that the event outlines appears in the beginning of the story.
 
 
 
