@@ -90,6 +90,9 @@ high-level structure of text. Although existing coarse-to-fine story generation 
 #### [Counterfactual Story Reasoning and Generation]()
 - this paper explores how to adjust stories to be compitable with counterfactual context. here counterfactual context refers to the case ehere some sentence has logical conflicts with its context. existing works haven't studied this problem formally. therefore they propose this task and release a dataset.
 
+#### [Transformer-based Conditional Variational Autoencoder for Controllable Story Generation](https://arxiv.org/pdf/2101.00828.pdf)
+- this paper explores the effectiveness and the controllability of text generation. The transformer models have achieved effectiveness in text generation while the controllability is left unsolved. Therefore, this work propose a conditional variational autoencoder by incorporating a latent vector representation into transformer.
+
 #### [Generating Diverse Story ]
 
 
