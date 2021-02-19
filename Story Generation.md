@@ -1,26 +1,26 @@
 ### Hierarchical story generation
 
 
-#### [Hierarchical Neural Story Generation](https://www.aclweb.org/anthology/P18-1082.pdf)
+#### [Hierarchical Neural Story Generation](https://www.aclweb.org/anthology/P18-1082.pdf)(ACL 2018)
 - this paper solves the problem that the generated story is not closedly related to the given pompt, therefore, they introduce fusion mechansim in their work. So in their work, they first generate the prompt which captures the main contents of the story and generate the story following the prompt using fusion model. They also collect a story generate dataset. 
 
 
-#### [Narrative Interpolation for Generating and Understanding Stories]()
+#### [Narrative Interpolation for Generating and Understanding Stories](CoRR 2020)
 - this work studies the stories generation by confining its starting and ending sentence. they find that existing storyline based story generation models face the problem of wandering and are sensitive to the selection of keywords in storylines. so they propose to interpolate the story by confining its starting and ending.
 
-#### [A Skeleton-Based Model for Promoting Coherence Among Sentences in Narrative Story Generation](https://www.aclweb.org/anthology/D18-1462.pdf)
+#### [A Skeleton-Based Model for Promoting Coherence Among Sentences in Narrative Story Generation](https://www.aclweb.org/anthology/D18-1462.pdf)(EMNLP 2018)
 - this paper solves the problem that the sentences in generated story should have semantic connections, where semantic connections denote that . so they proposed skeleton-based model for promoting coherence among sentences. in their model, they first learning to generate skeleton using RL and extend skeleton to stories. the skeleton means the key words or phrases in sentences.
 
-#### [Learning to Predict Explainable Plots for Neural Story Generation]()
+#### [Learning to Predict Explainable Plots for Neural Story Generation](https://arxiv.org/abs/1912.02395)(CoRR 2019)
 - this paper also studies the problem of generating stories in a herarchical way where an outline is first generated and then the story is generated conditioned on the outline. the outline in their work is a single sentence which summarizes the main contents of the story.
 
-#### [Consistency and Coherency Enhanced Story Generation](https://arxiv.org/pdf/2010.08822.pdf)
+#### [Consistency and Coherency Enhanced Story Generation](https://arxiv.org/pdf/2010.08822.pdf)(CoRR 2020)
 - this paper belongs to the idea that generating story in-two-steps in order to improve the coherence and consistency of story. they first generate an outline of the story which is consist of a set of keywords or an abstract, and then generate story based on the outline and prompt. They also augment the generation model with a disclose relation classifier to distinguish the discourse relation between two consecutive sentence. they suggest that this way can improve story's coherence.
 
-#### [Progressive Generation of Long Text]()
+#### [Progressive Generation of Long Text](https://arxiv.org/abs/2006.15720)(CoRR 2020)
 - this paper explores how to generate long text in a herarchical way. they find that existing works only focus on short text generation and the promising long text generation model like GPT facing the problem of incoherence and repeatition. Therefore, they proporse to first generate a backbone of the text which consists of a set of key phrases and then filling the interval between phrases with words to make it become a complete text.
 
-#### [Summarize, Outline, and Elaborate: Long-Text Generation via Hierarchical Supervision from Extractive Summaries]()
+#### [Summarize, Outline, and Elaborate: Long-Text Generation via Hierarchical Supervision from Extractive Summaries](https://arxiv.org/abs/2010.07074)(CoRR 2020)
 - this paper explores how to generate long stories in a hierarchical way. they find that pretrained language models like GPT focuses on predicting local words and ignores the
 high-level structure of text. Although existing coarse-to-fine story generation approach which first generate a summary of the story like a set of key words or a single sentece summary and then generate stories following the guidance of the summary. They argue that the keywords and a single-sentence summary are limited in capacity and cannot capture the high-level sturcture of text. Therefore, they propose to generate multi-sentence summaries with each sentence corresponding to a segment of story, and each segment can be generated following its own summary.
 
@@ -29,20 +29,20 @@ high-level structure of text. Although existing coarse-to-fine story generation 
 #### [Towards Controllable Story Generation](https://pdfs.semanticscholar.org/f9de/0d4a5adefc59bfb033f162d8a4a5212882cf.pdf?_ga=2.186340393.1437532588.1602585748-917632008.1599084173&_gac=1.159122888.1599460111.CjwKCAjwkdL6BRAREiwA-kiczH95rmO86D0s6vqHi4gsT7dhL-quGeLMV0UDh8OIocXSHdRTGup0PxoCLKsQAvD_BwE)
 - this paper attempts to control story generation using some control factors like labels indicating the sentiment of the end of story and keywords indicating the storyline. 
 
-#### [Strategies for Structuring Story Generation](https://arxiv.org/pdf/1902.01109.pdf)
+#### [Strategies for Structuring Story Generation](https://arxiv.org/pdf/1902.01109.pdf)(ACL 2019)
 - this paper aims to make long story more coherent and model long-distance dependency among contents. so they generate story in two steps: (1) they generate a sequence of actions from prompt (2) generate story following the guidance of the actions. the action here is represented with a predicate-agrument structure. 
 - diversity, repeatition and lacking details are main problem in their results. 
 
-#### [Towards Better Storylines with Sentence-Level Language Models]()
+#### [Towards Better Storylines with Sentence-Level Language Models](https://arxiv.org/abs/2005.05255)(arxiv 2020)
 - this paper aims at generating coherent ending for storyline. They find that existing works generate storylines in word-level and cannot learn the dependency between sentences. Therefore, they tries to rank a set of candidate endings and select the most appropriate one as ending, instead of directly generating the ending based on context.
 
-#### [PLOTMACHINES: Outline-Conditioned Generation with Dynamic Plot STate Tracking]()
+#### [PLOTMACHINES: Outline-Conditioned Generation with Dynamic Plot STate Tracking](https://www.aclweb.org/anthology/2020.emnlp-main.349/)(EMNLP 2020)
 - this paper also studies coherent story generation. They find that existing works  
 
-#### [Narrative Text Generation with a Latent Discrete Plan]()
+#### [Narrative Text Generation with a Latent Discrete Plan](https://www.aclweb.org/anthology/2020.findings-emnlp.325/)(EMNLP 2020)
 - this paper generates short stories using a hierarchical variational auto-encoder. they follow previous works which aims to generate coherent stories using storylines e.g. keywords, phrases, evnt representations and plot graph, but they find that the storylines in previous works are generated using an off-the-shelf tool which is too heuristic and cannot jointly learn during training phase. Therefore, they propose to model the storyline (a sequence of keywords, each keyword corresponds to a sentence) as a sequence of latent variables. during inference phase, the storyline first is sampled from the latent variables and then generate stories conditioning on the sampled story.
 
-#### [Outline to Story: Fine-Grained Controllable Story Generation from Cascaded Events](https://arxiv.org/pdf/2101.00822.pdf)
+#### [Outline to Story: Fine-Grained Controllable Story Generation from Cascaded Events](https://arxiv.org/pdf/2101.00822.pdf)(CoRR 2021)
 - this paper explories generating story from an outline and want to control the story in a fine-granularity level. In their work, they use events as their outline which are extract from dataset. they finetune GPT2 with their dataset in two different ways, one is that events and paragraphs are appeared in sequence interlevaingly, the other one is that the event outlines appears in the beginning of the story.
 
 
