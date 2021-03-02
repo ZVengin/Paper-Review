@@ -5,7 +5,7 @@
 - this paper solves the problem that the generated story is not closedly related to the given pompt, therefore, they introduce fusion mechansim in their work. So in their work, they first generate the prompt which captures the main contents of the story and generate the story following the prompt using fusion model. They also collect a story generate dataset. 
 
 
-#### [Narrative Interpolation for Generating and Understanding Stories](CoRR 2020)
+#### [Narrative Interpolation for Generating and Understanding Stories]()(CoRR 2020)
 - this work studies the stories generation by confining its starting and ending sentence. they find that existing storyline based story generation models face the problem of wandering and are sensitive to the selection of keywords in storylines. so they propose to interpolate the story by confining its starting and ending.
 
 #### [A Skeleton-Based Model for Promoting Coherence Among Sentences in Narrative Story Generation](https://www.aclweb.org/anthology/D18-1462.pdf)(EMNLP 2018)
