@@ -1,5 +1,7 @@
 ### Hierarchical story generation
 
+#### [Event Representations for Automated Story Generation with Deep Neural Nets](https://ojs.aaai.org/index.php/AAAI/article/view/11430)(AAAI 2018)
+- this paper finds that previous planning story generation works suffer the problem of expensive expert knowledge engineering and also can only generate story in predefined domains. Therefore, they propose to learn story planning and story generation from data corpus. In order to achieve this purpose, they applied stanford corenlp to extract a sequence events from wikipedia story plot and use them as guideline for story generation. The event is represented as (s,v,o,m), where s is subject, v is verb, o is object and m is supplement components. For story planning, they train a event2event model using the extracted event sequence, which aims to predict the story outline, and for story generation, they train a event2sentence model which aims to tranlate the event sequence into a compelete story.
 
 #### [Hierarchical Neural Story Generation](https://www.aclweb.org/anthology/P18-1082.pdf)(ACL 2018)
 - this paper solves the problem that the generated story is not closedly related to the given pompt, therefore, they introduce fusion mechansim in their work. So in their work, they first generate the prompt which captures the main contents of the story and generate the story following the prompt using fusion model. They also collect a story generate dataset. 
