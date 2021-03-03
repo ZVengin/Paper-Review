@@ -97,7 +97,8 @@ high-level structure of text. Although existing coarse-to-fine story generation 
 #### [Transformer-based Conditional Variational Autoencoder for Controllable Story Generation](https://arxiv.org/pdf/2101.00828.pdf)
 - this paper explores the effectiveness and the controllability of text generation. The transformer models have achieved effectiveness in text generation while the controllability is left unsolved. Therefore, this work propose a conditional variational autoencoder by incorporating a latent vector representation into transformer.
 
-#### [Generating Diverse Story ]
+#### [Story Realization: Exploiting Plot Events into Sentences](https://ojs.aaai.org/index.php/AAAI/article/view/6232)(AAAI 2020)
+- this paper focuses on convert event sequence to sentences. they find that in existing heriarchical story plot generation procedure where event sequences are first generated and then story plots are generated conditioned on the event sequeneces, there is a problem that existing event2sentence model tends to igore the event sequence and only generate plots conditioned on its context due to the following two reasons: (1) the existing event2event model tends to generate some unseen events which would be difficult for event2sentence model to translate. (2) the sparsity of training data from events to sentences make the model can only see each type of event for limited times. Therefore, they propose an ensemble-based story generation model which tries to balance the faithfulness to the given event sequence and the interesting degree of the story.
 
 
 ### ToRead
