@@ -20,6 +20,9 @@
 #### [Learning to Predict Explainable Plots for Neural Story Generation](https://arxiv.org/abs/1912.02395)(CoRR 2019)
 - this paper focuses on story generation from a given short title. they find that NLG task including story generation faces a sever problem of information gap that is NLG model has difficulty in generating long text from short input centering the given title and being thematically consistent as well. Although existing works have proposed to use some outlines to bridge the title and the stories, explicitly or implicitly modeling the outlines seems not ideal for story generation task. if implicitly modeling outlines as a latent variable it will be difficult for human to intepret, however, if explicitly modeling outlines as a natural language sentence the model will face exponentional outline search space. Therefore, they propose to represent the outlines as natural language sentences, at the mean while, they regard the outlines as a latent variable and optimize the entire model in a variational autoencode manner.
 
+#### [Strategies for Structuring Story Generation](https://arxiv.org/pdf/1902.01109.pdf)(ACL 2019)
+- this paper aims to generate stories from given prompts. they find that existing story generation models sequentially generate text at word-level and cannot plan the plot of stories from high-level. although existing works tried to decompose story generation into serveral steps, there is no comparision between these decomposition approaches. Therefore, in this work, they propose a new decompose approach where they generate the stories from prompts in three steps. they first generate a sequence of events from the prompt. the events here consist of a verb and its arguments like entities. they replace the entities with placeholder when generating event sequences. after that they expand the event sequences into stories and finally replace the placeholders with its correpsonding values. 
+- diversity, repeatition and lacking details are main problem in their results. 
 
 #### [Narrative Text Generation with a Latent Discrete Plan](https://www.aclweb.org/anthology/2020.findings-emnlp.325/)(EMNLP 2020)
 - this paper generates short stories from a given short title using a hierarchical variational auto-encoder. they follow previous works which aims to generate coherent stories using storylines e.g. keywords, phrases, evnt representations and plot graph, but they find that the storylines in previous works are generated using an off-the-shelf tool which is too heuristic and cannot jointly learn during training phase. Therefore, they propose to model the storyline (a sequence of keywords, each keyword corresponds to a sentence) as a sequence of latent variables. during inference phase, the storyline first is sampled from the latent variables and then generate stories conditioning on the sampled story.
@@ -41,9 +44,7 @@
 ### Story-line based story generation
 
 
-#### [Strategies for Structuring Story Generation](https://arxiv.org/pdf/1902.01109.pdf)(ACL 2019)
-- this paper aims to make long story more coherent and model long-distance dependency among contents. so they generate story in two steps: (1) they generate a sequence of actions from prompt (2) generate story following the guidance of the actions. the action here is represented with a predicate-agrument structure. 
-- diversity, repeatition and lacking details are main problem in their results. 
+
 
 #### [Towards Better Storylines with Sentence-Level Language Models](https://arxiv.org/abs/2005.05255)(arxiv 2020)
 - this paper aims at generating coherent ending for storyline. They find that existing works generate storylines in word-level and cannot learn the dependency between sentences. Therefore, they tries to rank a set of candidate endings and select the most appropriate one as ending, instead of directly generating the ending based on context.
