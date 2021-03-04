@@ -6,6 +6,9 @@
 #### [Hierarchical Neural Story Generation](https://www.aclweb.org/anthology/P18-1082.pdf)(ACL 2018)
 - this paper finds that it is very challenging to generate a thematically coherent and creative story. therefore, they propose to generate stories in a hierarchical approach where they first generate a prompt from scratch and then generate the story conditioned on the prompt. the prompt is a short sentence which roughly give a hint on what will be generate in story. In order to achieve this purpose, they collect a writingprompt dataset which has 300000 samples with each sample composed of a prompt and a story. In addition, they also find that seq2seq model tends to ignore the prompt, so they introduce fusion mechansim in their work to balance the dependency on the context and the prompt. 
 
+#### [Towards Controllable Story Generation](https://www.aclweb.org/anthology/W18-1505/)(NAACL 2018)
+- this paper focuses on controlling the story generation model to generate stories with specific type of ending or with specified storylines. They find that few existing works try to control the story generation, so they try to extract some control factors like sentiment and storyline from training data and use them to control story generation. For controlling story ending generation, they annotate the end of story with sentiment label and train the model to generate ending with specified sentiment by taking the context and the sentiment label as input. For controlling story generation with storyline, they extract a set of keywords using RAKE from stories and use them as input and try to reconstruct the stories. So in this case, the stories only condition on the storylines.  
+
 
 #### [Narrative Interpolation for Generating and Understanding Stories]()(CoRR 2020)
 - this work studies the stories generation by confining its starting and ending sentence. they find that existing storyline based story generation models face the problem of wandering and are sensitive to the selection of keywords in storylines. so they propose to interpolate the story by confining its starting and ending.
@@ -33,8 +36,7 @@
 
 
 ### Story-line based story generation
-#### [Towards Controllable Story Generation](https://pdfs.semanticscholar.org/f9de/0d4a5adefc59bfb033f162d8a4a5212882cf.pdf?_ga=2.186340393.1437532588.1602585748-917632008.1599084173&_gac=1.159122888.1599460111.CjwKCAjwkdL6BRAREiwA-kiczH95rmO86D0s6vqHi4gsT7dhL-quGeLMV0UDh8OIocXSHdRTGup0PxoCLKsQAvD_BwE)
-- this paper attempts to control story generation using some control factors like labels indicating the sentiment of the end of story and keywords indicating the storyline. 
+
 
 #### [Strategies for Structuring Story Generation](https://arxiv.org/pdf/1902.01109.pdf)(ACL 2019)
 - this paper aims to make long story more coherent and model long-distance dependency among contents. so they generate story in two steps: (1) they generate a sequence of actions from prompt (2) generate story following the guidance of the actions. the action here is represented with a predicate-agrument structure. 
