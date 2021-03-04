@@ -35,6 +35,9 @@
 - this paper aims to generate coherent and consistent stories from a given prompt. they find although GPT2 pretrained language model outperforms other baselines but still face the incoherence and inconsistency problem. traditional planning and generating approaches require lots of human efforts in data annotation. Although recently there are some data-driven approaches trying to generate in two-steps where in the first step, a middle meaning representation, such as keywords, keyphrases and sentences, is generated and in the second step, extend the middle meaning representation to a complete stoy. But they didn't make use of the latest language model architectures such as GPT2. Therefore, they adopt transformer architecture as their model backbone and generate the story in two stages. In the first stage, they apply a transformer model to generate an outline from the prompt and in the second stage, they apply the other transformer model to expand the outline to a story.
 
 
+#### [Outline to Story: Fine-Grained Controllable Story Generation from Cascaded Events](https://arxiv.org/pdf/2101.00822.pdf)(CoRR 2021)
+- this paper aims to generate stories from given prompts. they explore generating story from an outline and want to control the story in a fine-granularity level. In their work, they use events as their outline which are extract from dataset. they finetune GPT2 with their dataset in two different ways, one is that events and paragraphs are appeared in sequence interlevaingly, the other one is that the event outlines appears in the beginning of the story.
+
 ### Story-line based story generation
 
 
@@ -47,10 +50,6 @@
 
 #### [PLOTMACHINES: Outline-Conditioned Generation with Dynamic Plot STate Tracking](https://www.aclweb.org/anthology/2020.emnlp-main.349/)(EMNLP 2020)
 - this paper also studies coherent story generation. They find that existing works  
-
-
-#### [Outline to Story: Fine-Grained Controllable Story Generation from Cascaded Events](https://arxiv.org/pdf/2101.00822.pdf)(CoRR 2021)
-- this paper explories generating story from an outline and want to control the story in a fine-granularity level. In their work, they use events as their outline which are extract from dataset. they finetune GPT2 with their dataset in two different ways, one is that events and paragraphs are appeared in sequence interlevaingly, the other one is that the event outlines appears in the beginning of the story.
 
 
 
