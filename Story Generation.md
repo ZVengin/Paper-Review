@@ -41,6 +41,9 @@
 #### [Outline to Story: Fine-Grained Controllable Story Generation from Cascaded Events](https://arxiv.org/pdf/2101.00822.pdf)(CoRR 2021)
 - this paper aims to generate stories from given prompts. they explore generating story from an outline and want to control the story in a fine-granularity level. In their work, they use events as their outline which are extract from dataset. they finetune GPT2 with their dataset in two different ways, one is that events and paragraphs are appeared in sequence interlevaingly, the other one is that the event outlines appears in the beginning of the story.
 
+
+#### [Plan-And-Write: Towards Better Automatic Storytelling]
+
 ### Story-line based story generation
 
 
