@@ -76,6 +76,8 @@
 #### [PLATO: Pre-trained Dialogue Generation Model with Discrete Latent Variable](https://www.aclweb.org/anthology/2020.acl-main.9.pdf)
 - dialogue systems are hevality limited by training data, therefore, they propose a pretraining framework to support various kinds of dialogue systems like chit-chat, knowledge grounded dialogues, and conversational question answering. 
 
+#### [DiSCoL: Toward Engaging Dialogue Systems through Conversational Line Guided Response Generation](https://arxiv.org/pdf/2102.02191.pdf)
+
 ### Image Editing
 #### [A Multimodal Dialogue System for Conversational Image Editing](https://arxiv.org/pdf/2002.06484.pdf)
 - It is very difficult for a non-professional person to edit image, therefore, they propose a dialogue system to help users so that users can edit image by instructing dialogue systems from high-level using natural language. They propose a dialogue system based on POMP model and RL method.  
