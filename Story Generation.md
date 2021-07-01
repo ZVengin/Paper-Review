@@ -77,6 +77,10 @@
 
 #### [Choose Your Own Adventure: Paired Suggestions in Collaborative Writing for Evaluating Story Generation Models](https://aclanthology.org/2021.naacl-main.279.pdf)
 
+#### [IGA: An Intent-Guided Authoring Assistant](https://arxiv.org/pdf/2104.07000.pdf)
+
+#### [Plot-guided Adversarial Example Construction for Evaluating Open-domain Story Generation](https://arxiv.org/pdf/2104.05801.pdf)
+
 
 
 ### Revise story generation
