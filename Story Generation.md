@@ -67,6 +67,14 @@
 #### [Modeling Protagonist Emotions for Emotion-Aware Storytelling]()
 - this paper studies the problem of controlling the emotion flow inside the generated stories. the control signal for emotions is a set of words expressiong emotions like joy-> anger->sadness. 
 
+#### [Wordcraft: a Human-AI Collaborative Editor for Story Writing](https://www.seas.upenn.edu/~daphnei/EACL_wordcraft.pdf)
+
+#### [STORIUM: A Dataset and Evaluation Platform for Machine-in-the-Loop Story Generation](https://arxiv.org/pdf/2010.01717.pdf)
+
+#### [Shelley: A Crowd-sourced Collaborative Horror Writer](https://dl.acm.org/doi/pdf/10.1145/3450741.3465251)
+
+#### 
+
 
 
 ### Revise story generation
