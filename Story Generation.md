@@ -68,12 +68,14 @@
 - this paper studies the problem of controlling the emotion flow inside the generated stories. the control signal for emotions is a set of words expressiong emotions like joy-> anger->sadness. 
 
 #### [Wordcraft: a Human-AI Collaborative Editor for Story Writing](https://www.seas.upenn.edu/~daphnei/EACL_wordcraft.pdf)
+- this paper develop an interactive story generation system where users can ask the system to continue writing story, infilling the missing parts of story, elaborating the specified text or rewriting the specified text. 
 
 #### [STORIUM: A Dataset and Evaluation Platform for Machine-in-the-Loop Story Generation](https://arxiv.org/pdf/2010.01717.pdf)
+- this paper propose a new dataset and story evaluation platform for story generation. the existing datasets are too artificial like ROCStories, too unconstraint like the writingPrompts. therefore, they collect a story generation dataset which has 6K longform stories. each story is decomposed into different sceneries. Each scenery has annotation about character introduction, scene introduction, chanllege introduction etc.
 
 #### [Shelley: A Crowd-sourced Collaborative Horror Writer](https://dl.acm.org/doi/pdf/10.1145/3450741.3465251)
 
-#### 
+#### [Choose Your Own Adventure: Paired Suggestions in Collaborative Writing for Evaluating Story Generation Models](https://aclanthology.org/2021.naacl-main.279.pdf)
 
 
 
