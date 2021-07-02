@@ -118,8 +118,12 @@
 #### [Improving neural story generation by targeted common sense grounding](https://arxiv.org/abs/1908.09451)
 - this paper aims to inject conmmon sense knowledge into story generation model by finetuning the models using multi-task learning. They find existing large scale can generate style and syntactic consistent text, however, it is difficult to reason about world knowledge. They introduce finetune language generation models with tranditional language modelling loss and they proposed perplexity ranking loss (maxmizing the probability of correct text and lower the probability of incorrect text).
 
-#### [Counterfactual Story Reasoning and Generation]()
+#### [Counterfactual Story Reasoning and Generation](https://aclanthology.org/D19-1509/)
 - this paper explores how to adjust stories to be compitable with counterfactual context. here counterfactual context refers to the case ehere some sentence has logical conflicts with its context. existing works haven't studied this problem formally. therefore they propose this task and release a dataset.
+
+#### [Sketch and Customize: A Counterfactual Story Generator](https://arxiv.org/pdf/2104.00929.pdf)
+- this paper studies counterfactual story rewriting task. they find that previous works cannot handle this problem well since they incline to find some spurious relations between the original endings and counterfactual endings. So they propose to implement this task in two stages, first they remove the words which are conflicted with the counterfactual context using Bert model and apply GPT2 model to fill in the removed words.
+
 
 #### [Transformer-based Conditional Variational Autoencoder for Controllable Story Generation](https://arxiv.org/pdf/2101.00828.pdf)
 - this paper explores the effectiveness and the controllability of text generation. The transformer models have achieved effectiveness in text generation while the controllability is left unsolved. Therefore, this work propose a conditional variational autoencoder by incorporating a latent vector representation into transformer.
