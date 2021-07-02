@@ -134,6 +134,9 @@
 #### [Story Realization: Exploiting Plot Events into Sentences](https://ojs.aaai.org/index.php/AAAI/article/view/6232)(AAAI 2020)
 - this paper focuses on convert event sequence to sentences. they find that in existing heriarchical story plot generation procedure where event sequences are first generated and then story plots are generated conditioned on the event sequeneces, there is a problem that existing event2sentence model tends to igore the event sequence and only generate plots conditioned on its context due to the following two reasons: (1) the existing event2event model tends to generate some unseen events which would be difficult for event2sentence model to translate. (2) the sparsity of training data from events to sentences make the model can only see each type of event for limited times. Therefore, they propose an ensemble-based story generation model which tries to balance the faithfulness to the given event sequence and the interesting degree of the story.
 
+#### [Learning to Control the Fine-grained Sentiment for Story Ending Generation](https://aclanthology.org/P19-1603.pdf)
+- this paper aims to control the sentiment of the story endings. they find existing works focus on generating coherent, reasonable and diversified story endings and ignore the sentiment. therefore, they propose to generate story endings with sentiment in different intensities. During training phase, they extract the sentiment intensity using their sentiment analyzer and during the test phase, the sentiment intensity is specified by users. their model generate endings by conditioning on the context and the sentiment intensity.
+
 #### [Fabula Entropy Indexing: Objective Measures of Story Coherence](https://arxiv.org/pdf/2104.07472.pdf)
 
 
