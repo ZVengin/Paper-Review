@@ -118,6 +118,9 @@
 #### [Improving neural story generation by targeted common sense grounding](https://arxiv.org/abs/1908.09451)
 - this paper aims to inject conmmon sense knowledge into story generation model by finetuning the models using multi-task learning. They find existing large scale can generate style and syntactic consistent text, however, it is difficult to reason about world knowledge. They introduce finetune language generation models with tranditional language modelling loss and they proposed perplexity ranking loss (maxmizing the probability of correct text and lower the probability of incorrect text).
 
+#### [Knowledgeable Storyteller: A Commonsense-Driven Generative Model for Visual Storytelling](https://www.ijcai.org/Proceedings/2019/0744.pdf)
+- this paper aims to inject commonsense knowledge into visual storytelling. different from image captioning which simply describe the contents in images, the visual storytelling requires to generate some imaginary concepts which don't appear in images. They find these imaginary concepts and the objects in images are connected by some commonsense, therefore they propose to incorporate commonsense knowledge in visual storytelling. They first extracted a set of realted knowledge graph from knowledge base and apply attention mechanism to incorporate the commonse knowledge into the story.
+
 #### [Counterfactual Story Reasoning and Generation](https://aclanthology.org/D19-1509/)
 - this paper explores how to adjust stories to be compitable with counterfactual context. here counterfactual context refers to the case ehere some sentence has logical conflicts with its context. existing works haven't studied this problem formally. therefore they propose this task and release a dataset.
 
