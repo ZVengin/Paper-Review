@@ -77,6 +77,7 @@
 #### [Shelley: A Crowd-sourced Collaborative Horror Writer](https://dl.acm.org/doi/pdf/10.1145/3450741.3465251)
 
 #### [Choose Your Own Adventure: Paired Suggestions in Collaborative Writing for Evaluating Story Generation Models](https://aclanthology.org/2021.naacl-main.279.pdf)
+- this paper builds a platform for comparing two story generation models and they also studies the interaction experience between users and the story generation models. They ask the users to generate a story following the hint of a given image by collaborating the story generation models. At ech turn, users will give some input and the story generation models will continuing the generation by providing two candidate story for users to choose. After story generation, a set of question related to interaction experience will be asked.
 
 #### [IGA: An Intent-Guided Authoring Assistant](https://arxiv.org/pdf/2104.07000.pdf)
 
