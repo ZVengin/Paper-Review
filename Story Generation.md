@@ -42,7 +42,8 @@
 - this paper aims to generate stories from given prompts. they explore generating story from an outline and want to control the story in a fine-granularity level. In their work, they use events as their outline which are extract from dataset. they finetune GPT2 with their dataset in two different ways, one is that events and paragraphs are appeared in sequence interlevaingly, the other one is that the event outlines appears in the beginning of the story.
 
 
-#### [Plan-And-Write: Towards Better Automatic Storytelling]
+#### [Plan-And-Write: Towards Better Automatic Storytelling](https://docs.google.com/spreadsheets/d/1rKGZtbIqU5GyLc5VtsS_bO6DWDbcjF-5p6yrL89DGHQ/edit)
+- this paper studies open-doamin story generation. they find it is difficult for existing models to generate coherent stories Therefore, they propose to generate stories in tow steps: planning and generate. they represent the planning as a sequence of keywords and they introduce two kinds of planning strategies, one is dynamic(planning while generating stories) and the other is static (planning before story generation). 
 
 ### Story-line based story generation
 
