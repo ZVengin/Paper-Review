@@ -80,6 +80,7 @@
 - this paper builds a platform for comparing two story generation models and they also studies the interaction experience between users and the story generation models. They ask the users to generate a story following the hint of a given image by collaborating the story generation models. At ech turn, users will give some input and the story generation models will continuing the generation by providing two candidate story for users to choose. After story generation, a set of question related to interaction experience will be asked.
 
 #### [IGA: An Intent-Guided Authoring Assistant](https://arxiv.org/pdf/2104.07000.pdf)
+- this paper aims to insert sub sentence satisfying users' intentions such as cause, effect, contrast, description, biography, idiom, and paraphrase. e.g. it was raining [effect] trees. => it was raining, the trees were swaying and the wind was oppresive. They find existing works only focus on compele sentence in word level, therefore, they propose to compelete a sentence by infilling a sub sentence following users' intention. They extract a dataset by using some tools and use it to finetune the GPT2 model. 
 
 #### [Plot-guided Adversarial Example Construction for Evaluating Open-domain Story Generation](https://arxiv.org/pdf/2104.05801.pdf)
 
