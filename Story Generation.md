@@ -45,6 +45,9 @@
 #### [Plan-And-Write: Towards Better Automatic Storytelling](https://docs.google.com/spreadsheets/d/1rKGZtbIqU5GyLc5VtsS_bO6DWDbcjF-5p6yrL89DGHQ/edit)
 - this paper studies open-doamin story generation. they find it is difficult for existing models to generate coherent stories Therefore, they propose to generate stories in tow steps: planning and generate. they represent the planning as a sequence of keywords and they introduce two kinds of planning strategies, one is dynamic(planning while generating stories) and the other is static (planning before story generation). 
 
+#### [Stylized Story Generation with Style-Guided Planning](https://arxiv.org/abs/2105.08625)
+- this paper aims to control the style(whether to generate stories with a specified style) of the generated stories. they find existing story generation works focus on generating coherent stories and ignore the style of stoires. Therefore, they propose to control the style of story by generating stories in two steps: planning the keywords and then generating stories conditioning on the context and the keywords. They define the 3 tyoes of style (emotion, event and other) and assign a style label to each story by comparing the relative number of emotional keywords and event keywords.
+
 ### Story-line based story generation
 
 
