@@ -122,6 +122,10 @@
 #### [Knowledgeable Storyteller: A Commonsense-Driven Generative Model for Visual Storytelling](https://www.ijcai.org/Proceedings/2019/0744.pdf)
 - this paper aims to inject commonsense knowledge into visual storytelling. different from image captioning which simply describe the contents in images, the visual storytelling requires to generate some imaginary concepts which don't appear in images. They find these imaginary concepts and the objects in images are connected by some commonsense, therefore they propose to incorporate commonsense knowledge in visual storytelling. They first extracted a set of realted knowledge graph from knowledge base and apply attention mechanism to incorporate the commonse knowledge into the story.
 
+
+#### [MEGATRON-CNTRL: Controllable story generation with external knowledge using large-scale language models](https://arxiv.org/abs/2010.00840)
+- this paper aims to build a controllable and knowledge grounded story generation model. They find that prevalent pretraned language models lack konwledge and unable to control. Therefore, they propose to control the story generation by incorporating the external knowledge which is extracted from external database using the specified keywords. These extracted knowledge are ranked according to their relevance to the context. The text generator will generate the text conditioning both on the context and the extracted knowledge.
+
 #### [Counterfactual Story Reasoning and Generation](https://aclanthology.org/D19-1509/)
 - this paper explores how to adjust stories to be compitable with counterfactual context. here counterfactual context refers to the case ehere some sentence has logical conflicts with its context. existing works haven't studied this problem formally. therefore they propose this task and release a dataset.
 
