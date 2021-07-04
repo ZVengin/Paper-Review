@@ -146,6 +146,9 @@
 #### [Learning to Control the Fine-grained Sentiment for Story Ending Generation](https://aclanthology.org/P19-1603.pdf)
 - this paper aims to control the sentiment of the story endings. they find existing works focus on generating coherent, reasonable and diversified story endings and ignore the sentiment. therefore, they propose to generate story endings with sentiment in different intensities. During training phase, they extract the sentiment intensity using their sentiment analyzer and during the test phase, the sentiment intensity is specified by users. their model generate endings by conditioning on the context and the sentiment intensity.
 
+#### [Finding and generating a missing part for story completion](https://www.aclweb.org/anthology/2020.latechclfl-1.19/)
+- this paper studies the story completetion problem. existing works require user to have prior knowledge about the missing position. Therefore, they propose to automatically detect the missing part of the story and then generate the missing part.
+
 #### [Fabula Entropy Indexing: Objective Measures of Story Coherence](https://arxiv.org/pdf/2104.07472.pdf)
 
 ### Evaluation
