@@ -159,6 +159,8 @@
 #### [OpenMEVA: A Benchmark for Evaluating Open-ended Story Generation Metrics](https://arxiv.org/abs/2105.08920)
 - this paper propose a platform for evaluating the existing evaluation metrics for open-end story generation task. Their platform can be used to analyze the performance of the story generation metrics including (a) the correlation with human judgements and the generalization to different model outputs and datasets, (c) the ability to judge story coherence, and (d) the ro- bustness to perturbations. 
 
+#### [Narrative Incoherence Detection](https://arxiv.org/abs/2012.11157)
+- this paper aims to detect the incoherence in generated stories. They mainly focus on two types of incoherence: (1) missiong sentence (2) dicordant sentence. They build a set of baselines to analyze detection ability from the token level and sentence level.  They find token level modeling has better performance on short story and sentence level modeling has a better performance on long story. They also find pretraining and auxiliary sentence prediction objecrive can improvve detection performance.
 
 ### ToRead
 #### [Neural Text Generation in Stories Using Entity Representation as Context]()
