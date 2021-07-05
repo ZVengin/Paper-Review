@@ -141,6 +141,9 @@
 #### [Inferring the Reader: Guiding Automated Story Generation with Commonsense Reasoning](https://www.aaai.org/AAAI21Papers/AAAI-10130.YuMH.pdf)
 - this paper aims to generate coherent and multi-character centric stories. They find that existing works will lose coherency when generating long stories. Although some works try to solve the problem by introducing outline to guide story generation, this paper argue that their coherenece is in the outline level, and some other works solve the problem by adding external knowledge, this paper argue that the geberation heavily relies on sampling and lack the process of inference. Therefore, they introduce the inference process during generation phase. They first extract the actions and intentions from the context and the generated candidiate, and then compare whether the actions and intions in the generated story match with that in the context. if match, the candidate story will be outputted, if not, a new candidate will be generated, the above process will be repeated again.
 
+#### [Automated Storytelling via Causal, Commonsense Plot Ordering](https://www.aaai.org/AAAI21Papers/AAAI-5719.AmmanabroluP.pdf)
+
+
 #### [Counterfactual Story Reasoning and Generation](https://aclanthology.org/D19-1509/)
 - this paper explores how to adjust stories to be compitable with counterfactual context. here counterfactual context refers to the case ehere some sentence has logical conflicts with its context. existing works haven't studied this problem formally. therefore they propose this task and release a dataset.
 
