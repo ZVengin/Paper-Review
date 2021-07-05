@@ -170,6 +170,10 @@
 #### [Narrative Incoherence Detection](https://arxiv.org/abs/2012.11157)
 - this paper aims to detect the incoherence in generated stories. They mainly focus on two types of incoherence: (1) missiong sentence (2) dicordant sentence. They build a set of baselines to analyze detection ability from the token level and sentence level.  They find token level modeling has better performance on short story and sentence level modeling has a better performance on long story. They also find pretraining and auxiliary sentence prediction objecrive can improvve detection performance.
 
+#### [Plot-guided Adversarial Example Construction for Evaluating Open-domain Story Generation](https://arxiv.org/abs/2104.05801)
+- this paper aims to propose an evaluation metric for the open-ended story generation. They find that existing learnable based evaluation metrics have a higher correlation with human evaluation, however, they find that existing learnable metrics are trained with samples created by heuristically manipulating the reference stories. They argure that these heuristically created training samples could be unnatural and oversimplify the characteristics of implausible machine-generated stories. Therefore, they propose to construct the training samples by manipulating the plots of reference stories and generate the training samples with the modified plots. In order to improve the quality, they employ a adversial filtering procedure to get high-quality data.
+- 
+
 ### ToRead
 #### [Neural Text Generation in Stories Using Entity Representation as Context]()
 #### [Unified Language Model Pre-training for Understanding and Generation]()
