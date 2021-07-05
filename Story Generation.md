@@ -156,6 +156,10 @@
 - this paper studies the story completetion problem. existing works require user to have prior knowledge about the missing position. Therefore, they propose to automatically detect the missing part of the story and then generate the missing part.
 
 
+#### [Story Ending Generation with Incremental Encoding and Commonsense Knowledge](https://ojs.aaai.org/index.php/AAAI/article/view/4612)
+- this paper aims to generate the end of a story. They propose to incremental encoder to encode the context and also the multi-source attention to incorporate the commonse knowledge into the inference of story ending. 
+
+
 
 #### [Fabula Entropy Indexing: Objective Measures of Story Coherence](https://arxiv.org/pdf/2104.07472.pdf)
 
@@ -172,7 +176,7 @@
 
 #### [Plot-guided Adversarial Example Construction for Evaluating Open-domain Story Generation](https://arxiv.org/abs/2104.05801)
 - this paper aims to propose an evaluation metric for the open-ended story generation. They find that existing learnable based evaluation metrics have a higher correlation with human evaluation, however, they find that existing learnable metrics are trained with samples created by heuristically manipulating the reference stories. They argure that these heuristically created training samples could be unnatural and oversimplify the characteristics of implausible machine-generated stories. Therefore, they propose to construct the training samples by manipulating the plots of reference stories and generate the training samples with the modified plots. In order to improve the quality, they employ a adversial filtering procedure to get high-quality data.
-- 
+
 
 ### ToRead
 #### [Neural Text Generation in Stories Using Entity Representation as Context]()
