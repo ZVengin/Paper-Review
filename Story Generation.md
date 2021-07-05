@@ -54,6 +54,9 @@
 #### [Content planning for neural story generation with aristotelian rescoring](https://arxiv.org/abs/2009.09870)
 - this paper studies story generation with content planning. They find existing pretrained language models canot generate structure and cohension story in global range. They assume this problem can be solved by providing a good plot plan to the model. Therefore, they develop a plot-generation language  model and an assemble of rescore models to rank the generated plots. Their rescore models are designed based on the Aristotle’s Poetics and their plot is represented by semantic role labelling.
 
+#### [Guided Neural Language Generation for Automated Storytelling](https://www.aclweb.org/anthology/W19-3405.pdf)
+- this paper aims to guide story generation with event planning. They find existing works focus on generating good planning for events, however, they ignore there are some problems in transformation from the event to sentence since sometimes the transformation from event to sentence may generate grammartically correct but semantically incorrect sentence. Therefore, they propose an ensemble to solve this problem.
+
 ### Story-line based story generation
 
 
