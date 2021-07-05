@@ -48,6 +48,9 @@
 #### [Stylized Story Generation with Style-Guided Planning](https://arxiv.org/abs/2105.08625)
 - this paper aims to control the style(whether to generate stories with a specified style) of the generated stories. they find existing story generation works focus on generating coherent stories and ignore the style of stoires. Therefore, they propose to control the style of story by generating stories in two steps: planning the keywords and then generating stories conditioning on the context and the keywords. They define the 3 tyoes of style (emotion, event and other) and assign a style label to each story by comparing the relative number of emotional keywords and event keywords.
 
+#### [Content Learning with Structure-Aware Writing: A Graph-Infused Dual Conditional Variational Autoencoder for Automatic Storytelling](https://www.aaai.org/AAAI21Papers/AAAI-10130.YuMH.pdf)
+- this paper aims to generate the stories with the guidance of keywords. They find that existing works, when guiding story generation with keywords, they sequentially mapping a keyword to a sentence. However, in practical scene, usually a keyword may appear in multiple sentences and there inner connection between different sentences. So they propose to represent these connections including the keywords-sentence connection and sentence-sentence connection using graphs. When generating a story, they first infer the content information of the story and the graph structure of the story from the keywords, and generate the stories conditioning on the content informtaion and the graph structures.
+
 ### Story-line based story generation
 
 
