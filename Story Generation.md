@@ -155,6 +155,9 @@
 #### [Finding and generating a missing part for story completion](https://www.aclweb.org/anthology/2020.latechclfl-1.19/)
 - this paper studies the story completetion problem. existing works require user to have prior knowledge about the missing position. Therefore, they propose to automatically detect the missing part of the story and then generate the missing part.
 
+#### [T-CVAE: Transformer-Based Conditioned Variational Autoencoder for Story Completion](https://www.ijcai.org/proceedings/2019/0727.pdf)
+- this paper aims to generate the missing part in the story. They find the existing works are focus on generating the end of the story, which is different from this task setting and also existing works tend to generate generic and incoherent plots. Therefore, they propose to build model on a variational autoencoder model on transformer model in order to better capture the context clues,
+
 
 #### [Story Ending Generation with Incremental Encoding and Commonsense Knowledge](https://ojs.aaai.org/index.php/AAAI/article/view/4612)
 - this paper aims to generate the end of a story. They propose to incremental encoder to encode the context and also the multi-source attention to incorporate the commonse knowledge into the inference of story ending. 
