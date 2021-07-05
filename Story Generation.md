@@ -51,6 +51,9 @@
 #### [Content Learning with Structure-Aware Writing: A Graph-Infused Dual Conditional Variational Autoencoder for Automatic Storytelling](https://www.aaai.org/AAAI21Papers/AAAI-10130.YuMH.pdf)
 - this paper aims to generate the stories with the guidance of keywords. They find that existing works, when guiding story generation with keywords, they sequentially mapping a keyword to a sentence. However, in practical scene, usually a keyword may appear in multiple sentences and there inner connection between different sentences. So they propose to represent these connections including the keywords-sentence connection and sentence-sentence connection using graphs. When generating a story, they first infer the content information of the story and the graph structure of the story from the keywords, and generate the stories conditioning on the content informtaion and the graph structures.
 
+#### [Content planning for neural story generation with aristotelian rescoring](https://arxiv.org/abs/2009.09870)
+- this paper studies story generation with content planning. They find existing pretrained language models canot generate structure and cohension story in global range. They assume this problem can be solved by providing a good plot plan to the model. Therefore, they develop a plot-generation language  model and an assemble of rescore models to rank the generated plots. Their rescore models are designed based on the Aristotle’s Poetics and their plot is represented by semantic role labelling.
+
 ### Story-line based story generation
 
 
