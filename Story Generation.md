@@ -158,6 +158,9 @@
 #### [T-CVAE: Transformer-Based Conditioned Variational Autoencoder for Story Completion](https://www.ijcai.org/proceedings/2019/0727.pdf)
 - this paper aims to generate the missing part in the story. They find the existing works are focus on generating the end of the story, which is different from this task setting and also existing works tend to generate generic and incoherent plots. Therefore, they propose to build model on a variational autoencoder model on transformer model in order to better capture the context clues,
 
+#### [Unsupervised Hierarchical Story Infilling](https://www.aclweb.org/anthology/W19-2405.pdf)
+- this paper aims to generate the missing part in the story. They find existing works cannot well balance coherence and fluency with novelty and diversity. Therefore, they propose to infill the missing part of story in a hieracchical way by first predicting the a set of novel words from the context and based on the context and the predicted words to infill the missing part.
+
 
 #### [Story Ending Generation with Incremental Encoding and Commonsense Knowledge](https://ojs.aaai.org/index.php/AAAI/article/view/4612)
 - this paper aims to generate the end of a story. They propose to incremental encoder to encode the context and also the multi-source attention to incorporate the commonse knowledge into the inference of story ending. 
