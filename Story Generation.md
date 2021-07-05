@@ -180,6 +180,9 @@
 #### [Plot-guided Adversarial Example Construction for Evaluating Open-domain Story Generation](https://arxiv.org/abs/2104.05801)
 - this paper aims to propose an evaluation metric for the open-ended story generation. They find that existing learnable based evaluation metrics have a higher correlation with human evaluation, however, they find that existing learnable metrics are trained with samples created by heuristically manipulating the reference stories. They argure that these heuristically created training samples could be unnatural and oversimplify the characteristics of implausible machine-generated stories. Therefore, they propose to construct the training samples by manipulating the plots of reference stories and generate the training samples with the modified plots. In order to improve the quality, they employ a adversial filtering procedure to get high-quality data.
 
+#### [Predicting generated story quality with quantitative measures](https://www.aaai.org/ocs/index.php/AIIDE/AIIDE18/paper/viewPaper/18106)
+- this paper aims to evaluate open-ended story generation. They find existing evaluation metrics are either designed for a specific model or require intensive human source. Therefore, they propose a set of story features which can reflect the quality of the stories, and then they propose a set of methods to evaluate these features.
+
 
 ### ToRead
 #### [Neural Text Generation in Stories Using Entity Representation as Context]()
