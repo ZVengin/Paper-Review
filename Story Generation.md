@@ -123,6 +123,8 @@
 #### [Do Massively Pretrained Language Models Make Better StoryTellers]()
 - this paper studies the existing open-domain text generation models.two models including GPT and fusion model are studied on prompt based story generation dataset. They find that GPT model can generate more relevant stories to the given prompt and more coherent than the fusion model as well. But both models achieve similar performance on repeatition , word rareness, syntactic style and complexisty. They also find that sample size of GPT during decoding has an obvious impact on the performance.
 
+#### [Decoding Methods for Neural Narrative Generation](https://arxiv.org/abs/2010.07375)
+- this paper studies the effect of decoding method on the qulities of story. For nucleus sampling method has been thoroughly been evaluated by human and the recent advanced decoding methods used in dialog field has not been tried in story generation. Therefore, in this paper, they evlauate the effect of threshold p in nucleuns sampling on the story generation and find that the model generate higher quality story when p lies in range from 0.6 to 0.8. They also tried the Maximum  Mutual Information decoding method proposed in dialog field. They find that partially incorporating mutual information (lambda<=0.2) into the loss can benefit the interesting of the story.
 
 ### Other
 #### [A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation]()
