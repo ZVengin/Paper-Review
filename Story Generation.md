@@ -57,6 +57,14 @@
 #### [Guided Neural Language Generation for Automated Storytelling](https://www.aclweb.org/anthology/W19-3405.pdf)
 - this paper aims to guide story generation with event planning. They find existing works focus on generating good planning for events, however, they ignore there are some problems in transformation from the event to sentence since sometimes the transformation from event to sentence may generate grammartically correct but semantically incorrect sentence. Therefore, they propose an ensemble to solve this problem.
 
+
+#### [Facts2Story: Controlling Text Generation by Key Facts](https://arxiv.org/abs/2012.04332)
+- this paper aims to guide story generation with a set of key facts. They find the event representation used as guidance is unnatral for human to use since composing it require expert knowledge. Therefore, they propose to control story generation with a set of key facts which represnted as a set of simple sentenes. They propose a planning and cloze model which first construct the skeleten using the given facts by inserting the space inside facts and then filling the space with details.
+
+
+#### [Story Generation with Rich Details](https://www.aclweb.org/anthology/2020.coling-main.212/)
+- this paper aims to generate story by first planning an outline represented by a sequence of events and then expand each event into a sentence. They find existing event planning based methods lack details. Therefore, they not only expand the event into a sentence but also fill additional details between events. 
+
 ### Story-line based story generation
 
 
