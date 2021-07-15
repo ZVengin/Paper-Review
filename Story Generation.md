@@ -213,6 +213,9 @@
 #### [Predicting generated story quality with quantitative measures](https://www.aaai.org/ocs/index.php/AIIDE/AIIDE18/paper/viewPaper/18106)
 - this paper aims to evaluate open-ended story generation. They find existing evaluation metrics are either designed for a specific model or require intensive human source. Therefore, they propose a set of story features which can reflect the quality of the stories, and then they propose a set of methods to evaluate these features.
 
+#### [Generating Narative Text in a Switching Dynamical System](https://arxiv.org/abs/2004.03762)
+- this paper 
+
 
 
 ### ToRead
