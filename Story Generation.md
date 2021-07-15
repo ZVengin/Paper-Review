@@ -63,7 +63,11 @@
 
 
 #### [Story Generation with Rich Details](https://www.aclweb.org/anthology/2020.coling-main.212/)
-- this paper aims to generate story by first planning an outline represented by a sequence of events and then expand each event into a sentence. They find existing event planning based methods lack details. Therefore, they not only expand the event into a sentence but also fill additional details between events. 
+- this paper aims to generate story by first planning an outline represented by a sequence of events and then expand each event into a sentence. They find existing event planning based methods lack details. Therefore, they not only expand the event into a sentence but also fill additional details between events.
+
+
+#### [Graph^based Multi-hop Reasoning for Long Text Generation](https://arxiv.org/abs/2009.13282)
+- this paper aims to generate stories focusing on the sentential-level semantic dependencies. They find the existing works can capture semantic dependencies inside sentence, however, they fail to capture that in long text generation. Therefore, they propose to generate long text in two steps;(1) they try to plan text skeleton by reasoning on a knowledge graph in multiple-hops. (2) they try to realize the reaoning path in knowledge graph intp text. 
 
 ### Story-line based story generation
 
