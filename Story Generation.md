@@ -221,6 +221,11 @@
 - this paper 
 
 
+### Emotion
+#### [A Character-based Model for Interactive Storytelling in Games]()
+- The paper proposes a character-driven approach to interactive storytelling, where non-player characters (NPCs) are modeled with autonomous behaviors, personalities (e.g., using the Big Five traits), and dynamic goals to influence narrative progression without rigid branching structures . Techniques like hierarchical task decomposition, neural networks for behavior prediction, and nondeterministic planning are used to generate adaptive quests that respond to player actions and traits in real-time . The model emphasizes balancing player agency with narrative coherence by integrating drama management, user modeling, and AI-driven character interactions to create emergent, emotionally engaging stories .
+
+#### []
 
 ### ToRead
 #### [Neural Text Generation in Stories Using Entity Representation as Context]()
